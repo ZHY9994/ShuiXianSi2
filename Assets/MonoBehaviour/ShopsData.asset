@@ -1,0 +1,1315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a8cfe938fc0622cbc0fc50f81466437, type: 3}
+  m_Name: ShopsData
+  m_EditorClassIdentifier:
+  Skins:
+    ShopTabData:
+      Tabs:
+        keyData: 00000000010000000200000003000000
+        valueData:
+        - Label: Heroes
+          ItemsNumber: 12
+          ComingSoonNumber: 0
+        - Label: Heroes
+          ItemsNumber: 12
+          ComingSoonNumber: 0
+        - Label: Heroes
+          ItemsNumber: 12
+          ComingSoonNumber: 0
+        - Label: Heroes
+          ItemsNumber: 12
+          ComingSoonNumber: 0
+    PreviewOffset: {x: 0, y: 15}
+    PreviewSize: {x: 305, y: 305}
+    IsSelectable: 1
+    UsedRarity: 000000000100000002000000
+    m_Items:
+    - Index: 0
+      Order: 0
+      Name: Base
+      ItemRarity: 0
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: d41bffd00d2ddd647aff1e555a23912f, type: 3}
+      RewardSprite: {fileID: 21300000, guid: d41bffd00d2ddd647aff1e555a23912f, type: 3}
+    - Index: 1
+      Order: 0
+      Name: FNAF Bear
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 7fa5128bbe7c303498b0c24eda9d7c44, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 7fa5128bbe7c303498b0c24eda9d7c44, type: 3}
+    - Index: 2
+      Order: 1
+      Name: Homer
+      ItemRarity: 0
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 200
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 60347c987500c0c49bd270b1b0a43b18, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 60347c987500c0c49bd270b1b0a43b18, type: 3}
+    - Index: 3
+      Order: 1
+      Name: Stormtrooper
+      ItemRarity: 1
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 200
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 2ddf4bee110df3c4ea7e1b740039a0ac, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 2ddf4bee110df3c4ea7e1b740039a0ac, type: 3}
+    - Index: 4
+      Order: 2
+      Name: Bond
+      ItemRarity: 0
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 200
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 8f811282d1e63be4b845e27c41d10dd8, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 8f811282d1e63be4b845e27c41d10dd8, type: 3}
+    - Index: 5
+      Order: 3
+      Name: Squid Game 1
+      ItemRarity: 0
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 150
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: d3d061ab265289c4689570672990bd02, type: 3}
+      RewardSprite: {fileID: 21300000, guid: d3d061ab265289c4689570672990bd02, type: 3}
+    - Index: 6
+      Order: 4
+      Name: Rocky
+      ItemRarity: 0
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 200
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 6fc007e0c78c0264390e8f9d19d18f3e, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 6fc007e0c78c0264390e8f9d19d18f3e, type: 3}
+    - Index: 7
+      Order: 2
+      Name: Joker
+      ItemRarity: 1
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 250
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 2f2b73adc5a55704e970c434c51dad6b, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 2f2b73adc5a55704e970c434c51dad6b, type: 3}
+    - Index: 8
+      Order: 3
+      Name: Squid Game 2
+      ItemRarity: 1
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 250
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 5568284023cce10459b92521d9fac316, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 5568284023cce10459b92521d9fac316, type: 3}
+    - Index: 9
+      Order: 4
+      Name: Ironman
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 1e914f95a98dc8644a7d7cf70f3f62f4, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 1e914f95a98dc8644a7d7cf70f3f62f4, type: 3}
+    - Index: 10
+      Order: 0
+      Name: Golden
+      ItemRarity: 2
+      UnlockMethod: 3
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 1e3a362a43e10e14bbd04e39c5c9225a, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 1e3a362a43e10e14bbd04e39c5c9225a, type: 3}
+    - Index: 11
+      Order: 1
+      Name: Astronaut
+      ItemRarity: 2
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 350
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 97542ec9a5f422e4db30e44d4254f9c0, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 97542ec9a5f422e4db30e44d4254f9c0, type: 3}
+    - Index: 12
+      Order: 5
+      Name: C3PO
+      ItemRarity: 1
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 300
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 618755810325f5e40b95642ad3a103fe, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 618755810325f5e40b95642ad3a103fe, type: 3}
+    - Index: 13
+      Order: 2
+      Name: CorpseBride
+      ItemRarity: 2
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 400
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 514e46eb59396a84e8eb0f38ff0b4719, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 514e46eb59396a84e8eb0f38ff0b4719, type: 3}
+    - Index: 14
+      Order: 3
+      Name: Genie
+      ItemRarity: 2
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 600
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: f6b12f944df656047960cf1354693975, type: 3}
+      RewardSprite: {fileID: 21300000, guid: f6b12f944df656047960cf1354693975, type: 3}
+    - Index: 15
+      Order: 5
+      Name: Grinch
+      ItemRarity: 0
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 150
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 742e0713cf7497649b032312439e1121, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 742e0713cf7497649b032312439e1121, type: 3}
+    - Index: 16
+      Order: 4
+      Name: Harley
+      ItemRarity: 2
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: ba073527d56eb1249809e3c8452b15f5, type: 3}
+      RewardSprite: {fileID: 21300000, guid: ba073527d56eb1249809e3c8452b15f5, type: 3}
+    - Index: 17
+      Order: 6
+      Name: Incredibles
+      ItemRarity: 1
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 300
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: e01aafcb38ede914bb068982fe94d3c6, type: 3}
+      RewardSprite: {fileID: 21300000, guid: e01aafcb38ede914bb068982fe94d3c6, type: 3}
+    - Index: 18
+      Order: 5
+      Name: Jason
+      ItemRarity: 2
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 5c98300531328d44c962f77c67c138c9, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 5c98300531328d44c962f77c67c138c9, type: 3}
+    - Index: 19
+      Order: 7
+      Name: Joker2
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 1ac80af8d629ae648a9057d9932f6491, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 1ac80af8d629ae648a9057d9932f6491, type: 3}
+    - Index: 20
+      Order: 6
+      Name: Octopus
+      ItemRarity: 2
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 400
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 2896fd09e204e0747b3b6696ad3bcb8a, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 2896fd09e204e0747b3b6696ad3bcb8a, type: 3}
+    - Index: 21
+      Order: 8
+      Name: Panda
+      ItemRarity: 1
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 300
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 2596148fe6d0fb64f87033bd8aa38509, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 2596148fe6d0fb64f87033bd8aa38509, type: 3}
+    - Index: 22
+      Order: 6
+      Name: Rick
+      ItemRarity: 0
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 150
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 7614c699735375446b9f5487f0a3d55a, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 7614c699735375446b9f5487f0a3d55a, type: 3}
+    - Index: 23
+      Order: 9
+      Name: Shrek
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: d4496ad90e1077e4095eb257a0f82843, type: 3}
+      RewardSprite: {fileID: 21300000, guid: d4496ad90e1077e4095eb257a0f82843, type: 3}
+    - Index: 24
+      Order: 7
+      Name: Turtle
+      ItemRarity: 2
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 350
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: ef7efc61aa2319c49a284ff300cc15ed, type: 3}
+      RewardSprite: {fileID: 21300000, guid: ef7efc61aa2319c49a284ff300cc15ed, type: 3}
+    - Index: 25
+      Order: 10
+      Name: Wednesday
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 57424c1cd8f86e84c8c129a9e103ffae, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 57424c1cd8f86e84c8c129a9e103ffae, type: 3}
+    - Index: 26
+      Order: 11
+      Name: WonderWoman
+      ItemRarity: 1
+      UnlockMethod: 2
+      RequiredAdsToWatch: 0
+      RequiredMoney: 250
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 19d503e94e870fc4f9657dec37d2526d, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 19d503e94e870fc4f9657dec37d2526d, type: 3}
+    m_ItemsDictionary:
+      keyData: 000000000100000002000000
+      valueData:
+      - Items:
+        - Index: 0
+          Order: 0
+          Name: Base
+          ItemRarity: 0
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: d41bffd00d2ddd647aff1e555a23912f, type: 3}
+          RewardSprite: {fileID: 21300000, guid: d41bffd00d2ddd647aff1e555a23912f, type: 3}
+        - Index: 2
+          Order: 1
+          Name: Homer
+          ItemRarity: 0
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 200
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 60347c987500c0c49bd270b1b0a43b18, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 60347c987500c0c49bd270b1b0a43b18, type: 3}
+        - Index: 4
+          Order: 2
+          Name: Bond
+          ItemRarity: 0
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 200
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 8f811282d1e63be4b845e27c41d10dd8, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 8f811282d1e63be4b845e27c41d10dd8, type: 3}
+        - Index: 5
+          Order: 3
+          Name: Squid Game 1
+          ItemRarity: 0
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 150
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: d3d061ab265289c4689570672990bd02, type: 3}
+          RewardSprite: {fileID: 21300000, guid: d3d061ab265289c4689570672990bd02, type: 3}
+        - Index: 6
+          Order: 4
+          Name: Rocky
+          ItemRarity: 0
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 200
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 6fc007e0c78c0264390e8f9d19d18f3e, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 6fc007e0c78c0264390e8f9d19d18f3e, type: 3}
+        - Index: 15
+          Order: 5
+          Name: Grinch
+          ItemRarity: 0
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 150
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 742e0713cf7497649b032312439e1121, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 742e0713cf7497649b032312439e1121, type: 3}
+        - Index: 22
+          Order: 6
+          Name: Rick
+          ItemRarity: 0
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 150
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 7614c699735375446b9f5487f0a3d55a, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 7614c699735375446b9f5487f0a3d55a, type: 3}
+      - Items:
+        - Index: 1
+          Order: 0
+          Name: FNAF Bear
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 7fa5128bbe7c303498b0c24eda9d7c44, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 7fa5128bbe7c303498b0c24eda9d7c44, type: 3}
+        - Index: 3
+          Order: 1
+          Name: Stormtrooper
+          ItemRarity: 1
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 200
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 2ddf4bee110df3c4ea7e1b740039a0ac, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 2ddf4bee110df3c4ea7e1b740039a0ac, type: 3}
+        - Index: 7
+          Order: 2
+          Name: Joker
+          ItemRarity: 1
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 250
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 2f2b73adc5a55704e970c434c51dad6b, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 2f2b73adc5a55704e970c434c51dad6b, type: 3}
+        - Index: 8
+          Order: 3
+          Name: Squid Game 2
+          ItemRarity: 1
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 250
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 5568284023cce10459b92521d9fac316, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 5568284023cce10459b92521d9fac316, type: 3}
+        - Index: 9
+          Order: 4
+          Name: Ironman
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 1e914f95a98dc8644a7d7cf70f3f62f4, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 1e914f95a98dc8644a7d7cf70f3f62f4, type: 3}
+        - Index: 12
+          Order: 5
+          Name: C3PO
+          ItemRarity: 1
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 300
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 618755810325f5e40b95642ad3a103fe, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 618755810325f5e40b95642ad3a103fe, type: 3}
+        - Index: 17
+          Order: 6
+          Name: Incredibles
+          ItemRarity: 1
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 300
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: e01aafcb38ede914bb068982fe94d3c6, type: 3}
+          RewardSprite: {fileID: 21300000, guid: e01aafcb38ede914bb068982fe94d3c6, type: 3}
+        - Index: 19
+          Order: 7
+          Name: Joker2
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 1ac80af8d629ae648a9057d9932f6491, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 1ac80af8d629ae648a9057d9932f6491, type: 3}
+        - Index: 21
+          Order: 8
+          Name: Panda
+          ItemRarity: 1
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 300
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 2596148fe6d0fb64f87033bd8aa38509, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 2596148fe6d0fb64f87033bd8aa38509, type: 3}
+        - Index: 23
+          Order: 9
+          Name: Shrek
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: d4496ad90e1077e4095eb257a0f82843, type: 3}
+          RewardSprite: {fileID: 21300000, guid: d4496ad90e1077e4095eb257a0f82843, type: 3}
+        - Index: 25
+          Order: 10
+          Name: Wednesday
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 57424c1cd8f86e84c8c129a9e103ffae, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 57424c1cd8f86e84c8c129a9e103ffae, type: 3}
+        - Index: 26
+          Order: 11
+          Name: WonderWoman
+          ItemRarity: 1
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 250
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 19d503e94e870fc4f9657dec37d2526d, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 19d503e94e870fc4f9657dec37d2526d, type: 3}
+      - Items:
+        - Index: 10
+          Order: 0
+          Name: Golden
+          ItemRarity: 2
+          UnlockMethod: 3
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 1e3a362a43e10e14bbd04e39c5c9225a, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 1e3a362a43e10e14bbd04e39c5c9225a, type: 3}
+        - Index: 11
+          Order: 1
+          Name: Astronaut
+          ItemRarity: 2
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 350
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 97542ec9a5f422e4db30e44d4254f9c0, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 97542ec9a5f422e4db30e44d4254f9c0, type: 3}
+        - Index: 13
+          Order: 2
+          Name: CorpseBride
+          ItemRarity: 2
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 400
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 514e46eb59396a84e8eb0f38ff0b4719, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 514e46eb59396a84e8eb0f38ff0b4719, type: 3}
+        - Index: 14
+          Order: 3
+          Name: Genie
+          ItemRarity: 2
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 600
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: f6b12f944df656047960cf1354693975, type: 3}
+          RewardSprite: {fileID: 21300000, guid: f6b12f944df656047960cf1354693975, type: 3}
+        - Index: 16
+          Order: 4
+          Name: Harley
+          ItemRarity: 2
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: ba073527d56eb1249809e3c8452b15f5, type: 3}
+          RewardSprite: {fileID: 21300000, guid: ba073527d56eb1249809e3c8452b15f5, type: 3}
+        - Index: 18
+          Order: 5
+          Name: Jason
+          ItemRarity: 2
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 5c98300531328d44c962f77c67c138c9, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 5c98300531328d44c962f77c67c138c9, type: 3}
+        - Index: 20
+          Order: 6
+          Name: Octopus
+          ItemRarity: 2
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 400
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 2896fd09e204e0747b3b6696ad3bcb8a, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 2896fd09e204e0747b3b6696ad3bcb8a, type: 3}
+        - Index: 24
+          Order: 7
+          Name: Turtle
+          ItemRarity: 2
+          UnlockMethod: 2
+          RequiredAdsToWatch: 0
+          RequiredMoney: 350
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: ef7efc61aa2319c49a284ff300cc15ed, type: 3}
+          RewardSprite: {fileID: 21300000, guid: ef7efc61aa2319c49a284ff300cc15ed, type: 3}
+  Weapons:
+    ShopTabData:
+      Tabs:
+        keyData: 00000000010000000200000003000000
+        valueData:
+        - Label: Weapons
+          ItemsNumber: 11
+          ComingSoonNumber: 0
+        - Label: Weapons
+          ItemsNumber: 11
+          ComingSoonNumber: 0
+        - Label: Weapons
+          ItemsNumber: 11
+          ComingSoonNumber: 0
+        - Label: Weapons
+          ItemsNumber: 11
+          ComingSoonNumber: 0
+    PreviewOffset: {x: 0, y: 15}
+    PreviewSize: {x: 220, y: 220}
+    IsSelectable: 1
+    UsedRarity: 00000000010000000200000003000000
+    m_Items:
+    - Index: 0
+      Order: 0
+      Name: Knife
+      ItemRarity: 0
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: ccef08265711e0546b258a029e9231f1, type: 3}
+      RewardSprite: {fileID: 21300000, guid: ccef08265711e0546b258a029e9231f1, type: 3}
+      WeaponType: 0
+    - Index: 1
+      Order: 1
+      Name: Bowling Ball
+      ItemRarity: 0
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 0c9c709eeae4bfe40b1624ab007d65db, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 0c9c709eeae4bfe40b1624ab007d65db, type: 3}
+      WeaponType: 5
+    - Index: 2
+      Order: 2
+      Name: Rock
+      ItemRarity: 0
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 9020afacc03584d4f93d8f1ffe2c1649, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 9020afacc03584d4f93d8f1ffe2c1649, type: 3}
+      WeaponType: 4
+    - Index: 3
+      Order: 3
+      Name: Axe
+      ItemRarity: 0
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 08189f3a9cf3bc84dab8ff54d87acf4d, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 08189f3a9cf3bc84dab8ff54d87acf4d, type: 3}
+      WeaponType: 13
+    - Index: 4
+      Order: 4
+      Name: Hammer
+      ItemRarity: 0
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 4ae7d481f17f1a2458f6e20747f1840c, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 4ae7d481f17f1a2458f6e20747f1840c, type: 3}
+      WeaponType: 7
+    - Index: 5
+      Order: 5
+      Name: FootBall
+      ItemRarity: 0
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 1cb1a28ffa2443148be6981855fa646e, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 1cb1a28ffa2443148be6981855fa646e, type: 3}
+      WeaponType: 9
+    - Index: 6
+      Order: 6
+      Name: Grenade
+      ItemRarity: 0
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: e9d0ce6cec800c5499d04152cf64f27e, type: 3}
+      RewardSprite: {fileID: 21300000, guid: e9d0ce6cec800c5499d04152cf64f27e, type: 3}
+      WeaponType: 1
+    - Index: 7
+      Order: 0
+      Name: Spikes
+      ItemRarity: 1
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: acaa2767dad64734c8a0825659ca2e24, type: 3}
+      RewardSprite: {fileID: 21300000, guid: acaa2767dad64734c8a0825659ca2e24, type: 3}
+      WeaponType: 6
+    - Index: 8
+      Order: 7
+      Name: Scissors
+      ItemRarity: 0
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: f7c04652e0c5bb446a949ee5aa0a5c25, type: 3}
+      RewardSprite: {fileID: 21300000, guid: f7c04652e0c5bb446a949ee5aa0a5c25, type: 3}
+      WeaponType: 17
+    - Index: 9
+      Order: 8
+      Name: RPG
+      ItemRarity: 0
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 2
+      ShopSprite: {fileID: 21300000, guid: 583bc4e64b7cbee4ca10497d86cc2476, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 583bc4e64b7cbee4ca10497d86cc2476, type: 3}
+      WeaponType: 12
+    - Index: 10
+      Order: 1
+      Name: Phone
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 5
+      ShopSprite: {fileID: 21300000, guid: c6b05023b782ff14da9d428412d18c4a, type: 3}
+      RewardSprite: {fileID: 21300000, guid: c6b05023b782ff14da9d428412d18c4a, type: 3}
+      WeaponType: 3
+    - Index: 11
+      Order: 2
+      Name: TNT
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 7
+      ShopSprite: {fileID: 21300000, guid: 712f340c872ddfa4e88f87cb82aca6da, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 712f340c872ddfa4e88f87cb82aca6da, type: 3}
+      WeaponType: 2
+    - Index: 12
+      Order: 3
+      Name: Butcher Knife
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 10
+      ShopSprite: {fileID: 21300000, guid: e78794b3893265f44ba60e357943c357, type: 3}
+      RewardSprite: {fileID: 21300000, guid: e78794b3893265f44ba60e357943c357, type: 3}
+      WeaponType: 14
+    - Index: 13
+      Order: 4
+      Name: Mase
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 12
+      ShopSprite: {fileID: 21300000, guid: 19ee462f2886ce74c9c13f36c8dccece, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 19ee462f2886ce74c9c13f36c8dccece, type: 3}
+      WeaponType: 8
+    - Index: 14
+      Order: 5
+      Name: Homing
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 14
+      ShopSprite: {fileID: 21300000, guid: e13a0d16b65965d43b7259d07864ba88, type: 3}
+      RewardSprite: {fileID: 21300000, guid: e13a0d16b65965d43b7259d07864ba88, type: 3}
+      WeaponType: 11
+    - Index: 15
+      Order: 0
+      Name: ChainSaw
+      ItemRarity: 2
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 16
+      ShopSprite: {fileID: 21300000, guid: 99690b78ac2146240b1217564e2ce521, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 99690b78ac2146240b1217564e2ce521, type: 3}
+      WeaponType: 15
+    - Index: 16
+      Order: 6
+      Name: Cluster Grenade
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 18
+      ShopSprite: {fileID: 21300000, guid: 193deeed97bffa34d9a1de0a0d5de7a0, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 193deeed97bffa34d9a1de0a0d5de7a0, type: 3}
+      WeaponType: 10
+    - Index: 17
+      Order: 7
+      Name: Sword
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 21
+      ShopSprite: {fileID: 21300000, guid: 949850909ded3d34da1160c55581957d, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 949850909ded3d34da1160c55581957d, type: 3}
+      WeaponType: 18
+    - Index: 18
+      Order: 1
+      Name: Laser Sword
+      ItemRarity: 2
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 24
+      ShopSprite: {fileID: 21300000, guid: 1e612e3a34987fe4f8dcad9e86494244, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 1e612e3a34987fe4f8dcad9e86494244, type: 3}
+      WeaponType: 16
+    - Index: 19
+      Order: 2
+      Name: Thor Hammer
+      ItemRarity: 2
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 27
+      ShopSprite: {fileID: 21300000, guid: 892d5608a213ec744909e6db4ee9ac48, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 892d5608a213ec744909e6db4ee9ac48, type: 3}
+      WeaponType: 19
+    - Index: 20
+      Order: 3
+      Name: Witch Bomb
+      ItemRarity: 2
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: b4de1efb64180e6468dde3ca9555351b, type: 3}
+      RewardSprite: {fileID: 21300000, guid: b4de1efb64180e6468dde3ca9555351b, type: 3}
+      WeaponType: 20
+    - Index: 21
+      Order: 0
+      Name: Molotov
+      ItemRarity: 3
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 6e179dff3a3e83c4d9a1aa7f5580ec68, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 6e179dff3a3e83c4d9a1aa7f5580ec68, type: 3}
+      WeaponType: 22
+    - Index: 22
+      Order: 4
+      Name: Banana
+      ItemRarity: 2
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: c4a4638ca84482441b6af8fa54008e51, type: 3}
+      RewardSprite: {fileID: 21300000, guid: c4a4638ca84482441b6af8fa54008e51, type: 3}
+      WeaponType: 23
+    - Index: 23
+      Order: 1
+      Name: Shuriken
+      ItemRarity: 3
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 86d21dee70511084aa1e08956e8c26f9, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 86d21dee70511084aa1e08956e8c26f9, type: 3}
+      WeaponType: 24
+    - Index: 24
+      Order: 8
+      Name: Poison Flask
+      ItemRarity: 1
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 5ebd4082faaf96a478fad7638da150db, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 5ebd4082faaf96a478fad7638da150db, type: 3}
+      WeaponType: 25
+    - Index: 25
+      Order: 2
+      Name: Skunk
+      ItemRarity: 3
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: bfc7a9f6eb667294d9202e140ab3960c, type: 3}
+      RewardSprite: {fileID: 21300000, guid: bfc7a9f6eb667294d9202e140ab3960c, type: 3}
+      WeaponType: 26
+    - Index: 26
+      Order: 3
+      Name: Chicken
+      ItemRarity: 3
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: a5f34bf17fe8a2c48af349fe53d5f465, type: 3}
+      RewardSprite: {fileID: 21300000, guid: a5f34bf17fe8a2c48af349fe53d5f465, type: 3}
+      WeaponType: 27
+    - Index: 27
+      Order: 4
+      Name: Chihuahua
+      ItemRarity: 3
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 422b0d61391102b48b0fe25714962a50, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 422b0d61391102b48b0fe25714962a50, type: 3}
+      WeaponType: 28
+    - Index: 28
+      Order: 5
+      Name: Shark
+      ItemRarity: 3
+      UnlockMethod: 1
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 8286e9d27eace6f4a96d2bab10a7dae3, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 8286e9d27eace6f4a96d2bab10a7dae3, type: 3}
+      WeaponType: 29
+    - Index: 29
+      Order: 6
+      Name: Holy Grenade
+      ItemRarity: 3
+      UnlockMethod: 3
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: a128ccb4e89963d43bffa17c9d44e673, type: 3}
+      RewardSprite: {fileID: 21300000, guid: a128ccb4e89963d43bffa17c9d44e673, type: 3}
+      WeaponType: 21
+    - Index: 30
+      Order: 9
+      Name: Pipe
+      ItemRarity: 0
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: f5d5934f5261a914e8db031d7e73f74b, type: 3}
+      RewardSprite: {fileID: 21300000, guid: f5d5934f5261a914e8db031d7e73f74b, type: 3}
+      WeaponType: 31
+    - Index: 31
+      Order: 10
+      Name: Bottle
+      ItemRarity: 0
+      UnlockMethod: 0
+      RequiredAdsToWatch: 0
+      RequiredMoney: 0
+      RequiredLevel: 0
+      ShopSprite: {fileID: 21300000, guid: 4e16a5807a80a6f4f9d58cce941250bf, type: 3}
+      RewardSprite: {fileID: 21300000, guid: 4e16a5807a80a6f4f9d58cce941250bf, type: 3}
+      WeaponType: 32
+    m_ItemsDictionary:
+      keyData: 00000000010000000200000003000000
+      valueData:
+      - Items:
+        - Index: 0
+          Order: 0
+          Name: Knife
+          ItemRarity: 0
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: ccef08265711e0546b258a029e9231f1, type: 3}
+          RewardSprite: {fileID: 21300000, guid: ccef08265711e0546b258a029e9231f1, type: 3}
+          WeaponType: 0
+        - Index: 1
+          Order: 1
+          Name: Bowling Ball
+          ItemRarity: 0
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 0c9c709eeae4bfe40b1624ab007d65db, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 0c9c709eeae4bfe40b1624ab007d65db, type: 3}
+          WeaponType: 5
+        - Index: 2
+          Order: 2
+          Name: Rock
+          ItemRarity: 0
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 9020afacc03584d4f93d8f1ffe2c1649, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 9020afacc03584d4f93d8f1ffe2c1649, type: 3}
+          WeaponType: 4
+        - Index: 3
+          Order: 3
+          Name: Axe
+          ItemRarity: 0
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 08189f3a9cf3bc84dab8ff54d87acf4d, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 08189f3a9cf3bc84dab8ff54d87acf4d, type: 3}
+          WeaponType: 13
+        - Index: 4
+          Order: 4
+          Name: Hammer
+          ItemRarity: 0
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 4ae7d481f17f1a2458f6e20747f1840c, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 4ae7d481f17f1a2458f6e20747f1840c, type: 3}
+          WeaponType: 7
+        - Index: 5
+          Order: 5
+          Name: FootBall
+          ItemRarity: 0
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 1cb1a28ffa2443148be6981855fa646e, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 1cb1a28ffa2443148be6981855fa646e, type: 3}
+          WeaponType: 9
+        - Index: 6
+          Order: 6
+          Name: Grenade
+          ItemRarity: 0
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: e9d0ce6cec800c5499d04152cf64f27e, type: 3}
+          RewardSprite: {fileID: 21300000, guid: e9d0ce6cec800c5499d04152cf64f27e, type: 3}
+          WeaponType: 1
+        - Index: 8
+          Order: 7
+          Name: Scissors
+          ItemRarity: 0
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: f7c04652e0c5bb446a949ee5aa0a5c25, type: 3}
+          RewardSprite: {fileID: 21300000, guid: f7c04652e0c5bb446a949ee5aa0a5c25, type: 3}
+          WeaponType: 17
+        - Index: 9
+          Order: 8
+          Name: RPG
+          ItemRarity: 0
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 2
+          ShopSprite: {fileID: 21300000, guid: 583bc4e64b7cbee4ca10497d86cc2476, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 583bc4e64b7cbee4ca10497d86cc2476, type: 3}
+          WeaponType: 12
+        - Index: 30
+          Order: 9
+          Name: Pipe
+          ItemRarity: 0
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: f5d5934f5261a914e8db031d7e73f74b, type: 3}
+          RewardSprite: {fileID: 21300000, guid: f5d5934f5261a914e8db031d7e73f74b, type: 3}
+          WeaponType: 31
+        - Index: 31
+          Order: 10
+          Name: Bottle
+          ItemRarity: 0
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 4e16a5807a80a6f4f9d58cce941250bf, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 4e16a5807a80a6f4f9d58cce941250bf, type: 3}
+          WeaponType: 32
+      - Items:
+        - Index: 7
+          Order: 0
+          Name: Spikes
+          ItemRarity: 1
+          UnlockMethod: 0
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: acaa2767dad64734c8a0825659ca2e24, type: 3}
+          RewardSprite: {fileID: 21300000, guid: acaa2767dad64734c8a0825659ca2e24, type: 3}
+          WeaponType: 6
+        - Index: 10
+          Order: 1
+          Name: Phone
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 5
+          ShopSprite: {fileID: 21300000, guid: c6b05023b782ff14da9d428412d18c4a, type: 3}
+          RewardSprite: {fileID: 21300000, guid: c6b05023b782ff14da9d428412d18c4a, type: 3}
+          WeaponType: 3
+        - Index: 11
+          Order: 2
+          Name: TNT
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 7
+          ShopSprite: {fileID: 21300000, guid: 712f340c872ddfa4e88f87cb82aca6da, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 712f340c872ddfa4e88f87cb82aca6da, type: 3}
+          WeaponType: 2
+        - Index: 12
+          Order: 3
+          Name: Butcher Knife
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 10
+          ShopSprite: {fileID: 21300000, guid: e78794b3893265f44ba60e357943c357, type: 3}
+          RewardSprite: {fileID: 21300000, guid: e78794b3893265f44ba60e357943c357, type: 3}
+          WeaponType: 14
+        - Index: 13
+          Order: 4
+          Name: Mase
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 12
+          ShopSprite: {fileID: 21300000, guid: 19ee462f2886ce74c9c13f36c8dccece, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 19ee462f2886ce74c9c13f36c8dccece, type: 3}
+          WeaponType: 8
+        - Index: 14
+          Order: 5
+          Name: Homing
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 14
+          ShopSprite: {fileID: 21300000, guid: e13a0d16b65965d43b7259d07864ba88, type: 3}
+          RewardSprite: {fileID: 21300000, guid: e13a0d16b65965d43b7259d07864ba88, type: 3}
+          WeaponType: 11
+        - Index: 16
+          Order: 6
+          Name: Cluster Grenade
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 18
+          ShopSprite: {fileID: 21300000, guid: 193deeed97bffa34d9a1de0a0d5de7a0, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 193deeed97bffa34d9a1de0a0d5de7a0, type: 3}
+          WeaponType: 10
+        - Index: 17
+          Order: 7
+          Name: Sword
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 21
+          ShopSprite: {fileID: 21300000, guid: 949850909ded3d34da1160c55581957d, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 949850909ded3d34da1160c55581957d, type: 3}
+          WeaponType: 18
+        - Index: 24
+          Order: 8
+          Name: Poison Flask
+          ItemRarity: 1
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 5ebd4082faaf96a478fad7638da150db, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 5ebd4082faaf96a478fad7638da150db, type: 3}
+          WeaponType: 25
+      - Items:
+        - Index: 15
+          Order: 0
+          Name: ChainSaw
+          ItemRarity: 2
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 16
+          ShopSprite: {fileID: 21300000, guid: 99690b78ac2146240b1217564e2ce521, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 99690b78ac2146240b1217564e2ce521, type: 3}
+          WeaponType: 15
+        - Index: 18
+          Order: 1
+          Name: Laser Sword
+          ItemRarity: 2
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 24
+          ShopSprite: {fileID: 21300000, guid: 1e612e3a34987fe4f8dcad9e86494244, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 1e612e3a34987fe4f8dcad9e86494244, type: 3}
+          WeaponType: 16
+        - Index: 19
+          Order: 2
+          Name: Thor Hammer
+          ItemRarity: 2
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 27
+          ShopSprite: {fileID: 21300000, guid: 892d5608a213ec744909e6db4ee9ac48, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 892d5608a213ec744909e6db4ee9ac48, type: 3}
+          WeaponType: 19
+        - Index: 20
+          Order: 3
+          Name: Witch Bomb
+          ItemRarity: 2
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: b4de1efb64180e6468dde3ca9555351b, type: 3}
+          RewardSprite: {fileID: 21300000, guid: b4de1efb64180e6468dde3ca9555351b, type: 3}
+          WeaponType: 20
+        - Index: 22
+          Order: 4
+          Name: Banana
+          ItemRarity: 2
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: c4a4638ca84482441b6af8fa54008e51, type: 3}
+          RewardSprite: {fileID: 21300000, guid: c4a4638ca84482441b6af8fa54008e51, type: 3}
+          WeaponType: 23
+      - Items:
+        - Index: 21
+          Order: 0
+          Name: Molotov
+          ItemRarity: 3
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 6e179dff3a3e83c4d9a1aa7f5580ec68, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 6e179dff3a3e83c4d9a1aa7f5580ec68, type: 3}
+          WeaponType: 22
+        - Index: 23
+          Order: 1
+          Name: Shuriken
+          ItemRarity: 3
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 86d21dee70511084aa1e08956e8c26f9, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 86d21dee70511084aa1e08956e8c26f9, type: 3}
+          WeaponType: 24
+        - Index: 25
+          Order: 2
+          Name: Skunk
+          ItemRarity: 3
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: bfc7a9f6eb667294d9202e140ab3960c, type: 3}
+          RewardSprite: {fileID: 21300000, guid: bfc7a9f6eb667294d9202e140ab3960c, type: 3}
+          WeaponType: 26
+        - Index: 26
+          Order: 3
+          Name: Chicken
+          ItemRarity: 3
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: a5f34bf17fe8a2c48af349fe53d5f465, type: 3}
+          RewardSprite: {fileID: 21300000, guid: a5f34bf17fe8a2c48af349fe53d5f465, type: 3}
+          WeaponType: 27
+        - Index: 27
+          Order: 4
+          Name: Chihuahua
+          ItemRarity: 3
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 422b0d61391102b48b0fe25714962a50, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 422b0d61391102b48b0fe25714962a50, type: 3}
+          WeaponType: 28
+        - Index: 28
+          Order: 5
+          Name: Shark
+          ItemRarity: 3
+          UnlockMethod: 1
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: 8286e9d27eace6f4a96d2bab10a7dae3, type: 3}
+          RewardSprite: {fileID: 21300000, guid: 8286e9d27eace6f4a96d2bab10a7dae3, type: 3}
+          WeaponType: 29
+        - Index: 29
+          Order: 6
+          Name: Holy Grenade
+          ItemRarity: 3
+          UnlockMethod: 3
+          RequiredAdsToWatch: 0
+          RequiredMoney: 0
+          RequiredLevel: 0
+          ShopSprite: {fileID: 21300000, guid: a128ccb4e89963d43bffa17c9d44e673, type: 3}
+          RewardSprite: {fileID: 21300000, guid: a128ccb4e89963d43bffa17c9d44e673, type: 3}
+          WeaponType: 21

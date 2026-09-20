@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1960576706, guid: b83ed85133aff9ccf94d56bf413117ef, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier:
+  TotalMessagesSubmitted: 0
+  TotalMessagesFailed: 0
+  DesignMessagesSubmitted: 0
+  DesignMessagesFailed: 0
+  QualityMessagesSubmitted: 0
+  QualityMessagesFailed: 0
+  ErrorMessagesSubmitted: 0
+  ErrorMessagesFailed: 0
+  BusinessMessagesSubmitted: 0
+  BusinessMessagesFailed: 0
+  UserMessagesSubmitted: 0
+  UserMessagesFailed: 0
+  CustomArea:
+  gameKey:
+  - b38fe2506e3f3cf3ac32fe3afa0cf4ba
+  - e6989035d02f4de55cc30f8fac82e8d0
+  secretKey:
+  - d5d5163567bb7eec14d83d62a5480f354218662a
+  - 6dfd7f930146b1dc43700573a60b71194a1c331e
+  Build:
+  - 7.3
+  - 7.3
+  SelectedPlatformOrganization:
+  - KobGames
+  - KobGames
+  SelectedPlatformStudio:
+  - KobGames
+  - KobGames
+  SelectedPlatformGame:
+  - Who Dies First - iOS
+  - Who Dies First - Android
+  SelectedPlatformGameID: d8d50200d9d50200
+  SelectedOrganization: 0200000002000000
+  SelectedStudio: 0100000001000000
+  SelectedGame: dd020000dc020000
+  NewVersion: 7.3.24
+  Changes: "7.3.24\n- fixed fps script for when pausing game\n\n7.3.23\n- fixed bug with custom fields (locale related bug)\n\n7.3.22\n- added external dependency manager for .unitypackage release as well to solve issues with appset id on android\n\n7.3.21\n- fixed bug in internal error reporting\n\n7.3.20\n- added event uuid to events sent\n\n7.3.19\n- updated dependencies\n\n7.3.18\n- fixed fps event script to still run coroutines when Time.timeScale = 0 by using WaitForSecondsRealtime instead of WaitForSeconds\n\n7.3.17\n- added method manually update gamekey and secretkey\n\n7.3.16\n- fixed uwp build errors\n\n7.3.15\n- changed frequency logic for fps events\n\n7.3.14\n- small fix\n\n7.3.13\n- fixed crash for android builds\n\n7.3.12\n- removed imei identifiers and other alternative identifiers from user identifier logic (android)\n\n7.3.11\n- updated dependency to external dependency resolver\n\n7.3.10\n- adding missing .meta file for upm release\n- switched to using openupm for scoped registry when using upm, please update the upm setup for the unity sdk\n\n7.3.9\n- fixed upm package.json\n\n7.3.8\n- fixed upm dependecy\n\n7.3.7\n- added depedencies.xml for upm release\n\n7.3.6\n- fixed playmaker bugs\n\n7.3.5\n- changed settings to have FPS events turned off by default\n\n7.3.4\n- added error events to be sent for invalid custom event fields used\n- added optional mergeFields argument to event methods to merge with global custom fields instead of overwrite them\n\n7.3.3\n- playmaker fixes\n\n7.3.2\n- fixed missing custom event fields for when trying to fix missing session end events\n\n7.3.1\n- fixed editor ui bug with games with the same name\n\n7.3.0\n- added global custom event fields function to allow to add custom fields to events sent automatically by the SDK\n\n7.2.1\n- added functionality to force a new user in a/b testing without having to uninstall app first, simply use custom user id function to set a new user id which hasn't been used yet\n\n7.2.0\n- added support for admob impression events\n\n7.1.1\n- fixed build errors for desktop platforms"
+  SignUpOpen: 0
+  StudioName:
+  GameName:
+  OrganizationName:
+  OrganizationIdentifier:
+  EmailGA: kobgamesstudio@gmail.com
+  IntroScreen: 0
+  InfoLogEditor: 0
+  InfoLogBuild: 0
+  VerboseLogBuild: 0
+  UseManualSessionHandling: 0
+  SendExampleGameDataToMyGame: 0
+  UseIMEI: 0
+  InternetConnectivity: 0
+  CustomDimensions01:
+  - ConfigVersion_0.1
+  - ConfigVersion_0.1.0
+  - ConfigVersion_0.2
+  - ConfigVersion_0.2.0
+  - ConfigVersion_0.3
+  - ConfigVersion_0.3.0
+  CustomDimensions02:
+  - LevelComplete_1
+  - LevelComplete_2
+  - LevelComplete_3
+  - LevelComplete_4
+  - LevelComplete_5
+  - LevelComplete_10
+  CustomDimensions03: []
+  ResourceItemTypes: []
+  ResourceCurrencies: []
+  LastCreatedGamePlatform: 11
+  Platforms: 080000000b000000
+  CurrentInspectorState: 1
+  ClosedHints:
+  DisplayHints: 0
+  DisplayHintsScrollState: {x: 0, y: 0}
+  Logo: {fileID: 2800000, guid: 93e58e10b9265374fa195c043e1a715b, type: 3}
+  UpdateIcon: {fileID: 2800000, guid: f1dc2ddf271f3eb48895d577a5c6399c, type: 3}
+  InfoIcon: {fileID: 2800000, guid: a04fe0c41940453478d890ae0cda5522, type: 3}
+  DeleteIcon: {fileID: 2800000, guid: 68c599f387cadfa4c9d1f1fe3d73bffa, type: 3}
+  GameIcon: {fileID: 2800000, guid: d2949f0cc703fe54a956930d67ae848d, type: 3}
+  HomeIcon: {fileID: 2800000, guid: c0075c78a52864a4081a2e7d71813c53, type: 3}
+  InstrumentIcon: {fileID: 2800000, guid: 2035c31f96bf7a24f9118c0cdbfe2d1b, type: 3}
+  QuestionIcon: {fileID: 2800000, guid: 88a3996fc855144459fa6190947a0406, type: 3}
+  UserIcon: {fileID: 2800000, guid: 04aaff118c2598b40bb6f01ee7a0da20, type: 3}
+  AmazonIcon: {fileID: 0}
+  GooglePlayIcon: {fileID: 0}
+  iosIcon: {fileID: 0}
+  macIcon: {fileID: 0}
+  windowsPhoneIcon: {fileID: 0}
+  UsePlayerSettingsBuildNumber: 1
+  SubmitErrors: 1
+  NativeErrorReporting: 0
+  MaxErrorCount: 10
+  SubmitFpsAverage: 1
+  SubmitFpsCritical: 1
+  IncludeGooglePlay: 1
+  FpsCriticalThreshold: 20
+  FpsCirticalSubmitInterval: 1
+  PlatformFoldOut: 0101
+  CustomDimensions01FoldOut: 0
+  CustomDimensions02FoldOut: 0
+  CustomDimensions03FoldOut: 0
+  ResourceItemTypesFoldOut: 0
+  ResourceCurrenciesFoldOut: 0

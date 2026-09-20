@@ -1,0 +1,8 @@
+{
+  "name": "KobGamesSDK.Analytics.Runtime",
+  "references": [
+    "KobGamesSDK.Core.Runtime",
+    "KobGamesSDK.IAP.Runtime"
+  ],
+  "allowUnsafeCode": true
+}

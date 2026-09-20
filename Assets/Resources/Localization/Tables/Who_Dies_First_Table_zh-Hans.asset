@@ -1,0 +1,531 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Who_Dies_First_Table_zh-Hans
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh-Hans
+  m_SharedData: {fileID: 11400000, guid: 6fbb261c7bbf97149b73edb369de75bb, type: 2}
+  m_Metadata:
+    m_Items:
+      Array: []
+  m_TableData:
+  - m_Id: 279799441567744
+    m_Localized: 开始
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344960
+    m_Localized: 武器
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344961
+    m_Localized: 英雄
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344962
+    m_Localized: 移除广告
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344963
+    m_Localized: 移除所有游戏内广告
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344964
+    m_Localized: 解锁所有皮肤
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344965
+    m_Localized: 解锁
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344966
+    m_Localized: VIP武器
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344967
+    m_Localized: VIP皮肤
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344968
+    m_Localized: 商店
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344969
+    m_Localized: 普通
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344970
+    m_Localized: 稀有
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344971
+    m_Localized: 史诗
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539264
+    m_Localized: 神话
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539265
+    m_Localized: 卡组
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539266
+    m_Localized: 战斗卡组
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539267
+    m_Localized: 卡牌包
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539268
+    m_Localized: 获取
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539269
+    m_Localized: 放弃
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539270
+    m_Localized: 领取
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539271
+    m_Localized: 已完成
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539272
+    m_Localized: 击败敌人
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539273
+    m_Localized: 继续
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539274
+    m_Localized: 已解锁
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539275
+    m_Localized: 关卡
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539276
+    m_Localized: 关卡失败
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539277
+    m_Localized: 点击重新开始
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539278
+    m_Localized: 音乐
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539279
+    m_Localized: 音效
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539280
+    m_Localized: 振动
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539281
+    m_Localized: 隐私设置
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539282
+    m_Localized: 同意设置
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539283
+    m_Localized: 设置
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539284
+    m_Localized: 等级
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539285
+    m_Localized: 生命
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539286
+    m_Localized: 奖励
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539287
+    m_Localized: 升级
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539288
+    m_Localized: 你达到了N级
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539289
+    m_Localized: 好的
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539290
+    m_Localized: 看广告获得卡包
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539291
+    m_Localized: 看广告获得200-400金币
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539292
+    m_Localized: 获取
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539293
+    m_Localized: 小刀
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539294
+    m_Localized: 保龄球
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539295
+    m_Localized: 石头
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539296
+    m_Localized: 斧头
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539297
+    m_Localized: 锤子
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539298
+    m_Localized: 足球
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539299
+    m_Localized: 手雷
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539300
+    m_Localized: 尖刺
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539301
+    m_Localized: 剪刀
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539302
+    m_Localized: 火箭筒
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539303
+    m_Localized: 手机
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539304
+    m_Localized: TNT
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539305
+    m_Localized: 屠刀
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539306
+    m_Localized: 狼牙棒
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539307
+    m_Localized: 追踪武器
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539308
+    m_Localized: 电锯
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539309
+    m_Localized: 集束手雷
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539310
+    m_Localized: 剑
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539311
+    m_Localized: 激光剑
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539312
+    m_Localized: 雷神之锤
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539313
+    m_Localized: 女巫炸弹
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539314
+    m_Localized: 燃烧瓶
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539315
+    m_Localized: 香蕉
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539316
+    m_Localized: 手里剑
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539317
+    m_Localized: 毒药瓶
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539318
+    m_Localized: 臭鼬
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539319
+    m_Localized: 公鸡
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539320
+    m_Localized: 吉娃娃
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539321
+    m_Localized: 鲨鱼
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539322
+    m_Localized: 神圣手雷
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539323
+    m_Localized: 水管
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539324
+    m_Localized: 瓶子
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539325
+    m_Localized: 伤害
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539326
+    m_Localized: 推力
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539327
+    m_Localized: 伤害范围
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539328
+    m_Localized: 升级
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539329
+    m_Localized: 装备
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539330
+    m_Localized: 免费升级
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539331
+    m_Localized: 点击打开
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539332
+    m_Localized: 使用中
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539333
+    m_Localized: 收集
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539334
+    m_Localized: 新武器
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539335
+    m_Localized: 选择武器
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539336
+    m_Localized: 装备用来替换武器
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539337
+    m_Localized: 点击武器进行替换
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539338
+    m_Localized: 关闭
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539339
+    m_Localized: 选择要替换的卡牌
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539340
+    m_Localized: 已锁定
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539341
+    m_Localized: 全部失去
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 662981378748416
+    m_Localized: VIP
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 664642688036864
+    m_Localized: 免费
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 665174341234688
+    m_Localized: 最高
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 692735196704768
+    m_Localized: 你达到了
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1750851673829376
+    m_Localized: 拖动并释放
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714172406444032
+    m_Localized: 给个评价
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714174486818816
+    m_Localized: 如果你喜欢这款游戏，请支持我们并给出评价。
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714176940486656
+    m_Localized: 这会帮助我们成长！
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714179167662080
+    m_Localized: 稍后再说
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714181063487488
+    m_Localized: 不
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714183231942656
+    m_Localized: 评价
+    m_Metadata:
+      m_Items:
+        Array: []

@@ -1,0 +1,539 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Who_Dies_First_Table Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: Who_Dies_First_Table
+  m_TableCollectionNameGuidString: 6fbb261c7bbf97149b73edb369de75bb
+  m_Entries:
+  - m_Id: 279799441567744
+    m_Key: word_play
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344960
+    m_Key: word_weapons
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344961
+    m_Key: word_heroes
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344962
+    m_Key: word_disable_ads
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344963
+    m_Key: word_disable_all_ads
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344964
+    m_Key: word_unlock_all_skins
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344965
+    m_Key: word_unlock_it
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344966
+    m_Key: word_vip_weapon
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344967
+    m_Key: word_vip_skin
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344968
+    m_Key: word_shop
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344969
+    m_Key: "word_good\t"
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344970
+    m_Key: word_rare
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344971
+    m_Key: word_epic
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539264
+    m_Key: word_mythic
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539265
+    m_Key: word_deck
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539266
+    m_Key: word_battle_deck
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539267
+    m_Key: word_cards_package
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539268
+    m_Key: word_get_it
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539269
+    m_Key: word_lose_it
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539270
+    m_Key: word_claim
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539271
+    m_Key: word_completed
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539272
+    m_Key: word_enemy_defeated
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539273
+    m_Key: word_continue
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539274
+    m_Key: word_unlocked
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539275
+    m_Key: word_level
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539276
+    m_Key: word_level_failed
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539277
+    m_Key: word_tap_to_restart
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539278
+    m_Key: word_music
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539279
+    m_Key: word_sfx
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539280
+    m_Key: word_vibration
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539281
+    m_Key: word_privacy_settings
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539282
+    m_Key: word_consent_settings
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539283
+    m_Key: word_settings
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539284
+    m_Key: word_lvl
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539285
+    m_Key: word_hp
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539286
+    m_Key: word_reward
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539287
+    m_Key: word_level_up
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539288
+    m_Key: word_you_reached_level
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539289
+    m_Key: word_okay
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539290
+    m_Key: weapons_menu.package_offer
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539291
+    m_Key: heroes_menu.package_offer
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539292
+    m_Key: word_get
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539293
+    m_Key: weapon_name_knife
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539294
+    m_Key: weapon_name_bowling_ball
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539295
+    m_Key: weapon_name_rock
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539296
+    m_Key: weapon_name_axe
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539297
+    m_Key: weapon_name_hammer
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539298
+    m_Key: weapon_name_football
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539299
+    m_Key: weapon_name_grenade
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539300
+    m_Key: weapon_name_spikes
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539301
+    m_Key: weapon_name_scissors
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539302
+    m_Key: weapon_name_rpg
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539303
+    m_Key: weapon_name_phone
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539304
+    m_Key: weapon_name_tnt
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539305
+    m_Key: weapon_name_butcher_knife
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539306
+    m_Key: weapon_name_mase
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539307
+    m_Key: weapon_name_homing
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539308
+    m_Key: weapon_name_chainsaw
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539309
+    m_Key: weapon_name_cluster_grenade
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539310
+    m_Key: weapon_name_sword
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539311
+    m_Key: weapon_name_laser_sword
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539312
+    m_Key: weapon_name_thor_hammer
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539313
+    m_Key: weapon_name_witch_bomb
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539314
+    m_Key: weapon_name_molotov
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539315
+    m_Key: weapon_name_banana
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539316
+    m_Key: weapon_name_shuriken
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539317
+    m_Key: weapon_name_poison_flask
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539318
+    m_Key: weapon_name_skunk
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539319
+    m_Key: weapon_name_chicken
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539320
+    m_Key: weapon_name_chihuahua
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539321
+    m_Key: weapon_name_shark
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539322
+    m_Key: weapon_name_holy_grenade
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539323
+    m_Key: weapon_name_pipe
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539324
+    m_Key: weapon_name_bottle
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539325
+    m_Key: word_damage
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539326
+    m_Key: word_push_force
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539327
+    m_Key: word_damage_radius
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539328
+    m_Key: word_upgrade
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539329
+    m_Key: word_equip
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539330
+    m_Key: word_free_level_up
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539331
+    m_Key: word_tap_to_open
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539332
+    m_Key: word_in_use
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539333
+    m_Key: word_collect
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539334
+    m_Key: word_new_weapon
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539335
+    m_Key: word_select_weapon
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539336
+    m_Key: tutorial_step_equip_replace
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539337
+    m_Key: tutorial_step_tap_replace
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539338
+    m_Key: tutorial_step_close
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539339
+    m_Key: word_select_card_to_be_replaced
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539340
+    m_Key: word_locked
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539341
+    m_Key: word_lose_it_all
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 662981378748416
+    m_Key: word_vip
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 664642688036864
+    m_Key: word_free
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 665174341234688
+    m_Key: word_max
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 692735196704768
+    m_Key: word_you_reached
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1750851673829376
+    m_Key: word_drag_and_release
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714172406444032
+    m_Key: word_rate_us
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714174486818816
+    m_Key: word_if_you_enjoyed_the_game
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714176940486656
+    m_Key: word_it'll_help_us_grow
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714179167662080
+    m_Key: word_maybe_later
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714181063487488
+    m_Key: word_no
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714183231942656
+    m_Key: word_rate
+    m_Metadata:
+      m_Items:
+        Array: []
+  m_Metadata:
+    m_Items:
+      Array: []
+  m_KeyGenerator:
+    rid: 4598457989072420888
+  references:
+    version: 2
+    RefIds:
+    - rid: 4598457989072420888
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1715179409133

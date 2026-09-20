@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab8369efa7e288cc792325cc1d459415, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier:
+  General:
+    IsInit: 1
+    m_IsAdsEnabled: 1
+    Icon: {fileID: 21300000, guid: 073f4b185c46e4a49ae533c770888b69, type: 3}
+    SplashImage: {fileID: 21300000, guid: 8b1e9abacbefad94ca80ed61415930ff, type: 3}
+    UpdateSplash: 1
+    IOSTeamIDTest: 0
+    AutoSign: 1
+    SignIOSTeamID: SXQF39B47F
+    SeparateBundles: 0
+    BundleIdentifier: com.games.whodiesfirst
+    BundleIdentifierAndroid:
+    GameName: Who Dies First
+    BuildVersion: 7.3
+    BuildNumber: 7300
+    GooglePlayId: com.games.whodiesfirst
+    AppStoreId: 1627695118
+    IsBuildIOS: 0
+    IsBuildAndroid: 0
+    SetSpecificCulture: 1
+    CultureName: en-US
+    m_RenderingPipeline: 1
+    EnforceQualitySettings: 1
+    m_DummySpacer:
+  Screenshots: {}
+  AdsMediation:
+    MediationNetworks: 2
+    IronSourceAppleID: 93a3c8b5
+    IronSourceAndroidID: 93a38f2d
+    MAXSDKKey: 6AQkyPv9b4u7yTtMH9PT40gXg00uJOTsmBOf7hDxa_-FnNZvt_qTLnJAiKeb5-2_T8GsI_dGQKKKrtwZTlCzAR
+    AdMobAppIdAndroid: ca-app-pub-7663884898922975~6938444292
+    AdMobAppIdIos: ca-app-pub-7663884898922975~6200536485
+    MAXBannerAdUnitIdIOS: fbeda252c5cf540d
+    MAXInterstitialAdUnitIdIOS: 9d5a737f37dfa067
+    MAXRewardVideoAdUnitIdIOS: 29c0b423b22ddb5c
+    MAXBannerAdUnitIdAndroid: 4a0922867a8f8729
+    MAXInterstitialAdUnitIdAndroid: 48b1fd3d3098e221
+    MAXRewardVideoAdUnitIdAndroid: e60b90cd74b7f83d
+  RemoteSettings: {}
+  Analytics: {}
+  RateUs:
+    RateUsLevels: 03000000080000000f00000019000000
+    RateUsPopupMode: 2
+  Shortcuts:
+    EditMode: 0
+    ShortcutsGroup:
+    - {fileID: 11400000, guid: be67145bfc572104f87ca6bccdb59802, type: 2}
+    - {fileID: 11400000, guid: e865a1cff669b304785ae23c387118c2, type: 2}
+    - {fileID: 11400000, guid: 45b40cad18d6f24469c80a503a4ad1d1, type: 2}
+  Sync: {}
+  VersionsDiff:
+    VersionsSDK:
+      VersionsList:
+        Versions:
+        - Name: IronSource
+          Version: 7.0.4.1-r
+        - Name: MaxSdk
+          Version: 3.1.18
+        - Name: AppsFlyer
+          Version: 5.3.0
+        - Name: GameAnalytics
+          Version: 6.3.10
+        - Name: AppMetrica
+          Version: 3.5.0
+        - Name: Facebook
+          Version: 8.1.1
+        - Name: Fx
+          Version: v0.0.8
+        - Name: SimpleSDK
+          Version: v0.2.2
+        - Name: SimpleSDKAttribution
+          Version: v0.0.4-appsflyer
+        - Name: SimpleSDKTopon
+          Version: global-v5.7.3
+    VersionsProject:
+      VersionsList:
+        Versions:
+        - Name: IronSource
+          Version: 7.0.4.1-r
+        - Name: MaxSdk
+          Version: 3.1.18
+        - Name: AppsFlyer
+          Version: 5.3.0
+        - Name: GameAnalytics
+          Version: 6.3.10
+        - Name: AppMetrica
+          Version: 3.5.0
+        - Name: Facebook
+          Version: 8.1.1
+        - Name: Fx
+          Version: v0.0.8
+        - Name: SimpleSDK
+          Version: v0.2.2
+        - Name: SimpleSDKAttribution
+          Version: v0.0.4-appsflyer
+        - Name: SimpleSDKTopon
+          Version: global-v5.7.3

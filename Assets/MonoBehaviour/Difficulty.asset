@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fafb080678303060fe08ff82a8e7b677, type: 3}
+  m_Name: Difficulty
+  m_EditorClassIdentifier:
+  SpawnRange: {x: 0.5, y: 0}
+  PowerConversion: 0.35
+  EnemyWeapons:
+  - Id: 1
+    Weapons: 00000000040000000900000005000000
+  - Id: 2
+    Weapons: 000000000900000005000000040000000d000000
+  - Id: 3
+    Weapons: 000000000600000005000000010000000d0000000c00000011000000
+  - Id: 4
+    Weapons: 0600000005000000010000000d0000000c0000000300000008000000000000000e000000
+  - Id: 5
+    Weapons: 06000000010000000d0000000c0000000300000008000000000000000e000000020000000a00000001000000
+  WinCoef: 0.15
+  LoseCoef: 0.3
+  DifficultyIncreaseOnWin: 1.05
+  DifficultyIncreaseOnWinNew: 6
+  PeriodicDifficultyCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.66373235
+      outSlope: 0.66373235
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.06366048
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1.9385195
+      outSlope: 1.9385195
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.037135303
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  PeriodicDifficultyAmplitude: 0
+  PeriodicDifficultyPeriod: 4

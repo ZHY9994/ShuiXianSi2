@@ -1,0 +1,53 @@
+
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Visual Studio / Rider / IDE files
+.vs/
+.vsconfig
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python / local tooling
+__pycache__/
+*.py[cod]
+
+# Project local data
+SaveData/
+
+# Incomplete LFS placeholders in this local copy.
+# Restore these from the original MK Toon package before committing them.
+Assets/MK/MKToon/Builtin/
+Assets/MK/MKToon/Builtin.meta
+Assets/MK/MKToon/Editor/CardImage.png
+Assets/MK/MKToon/Editor/CardImage.png.meta
+Assets/MK/MKToon/Read Me.pdf
+Assets/MK/MKToon/Read Me.pdf.meta
+
+# Excluded from the GitHub snapshot: local Unity package is not available in LFS.
+Assets/MK/MKToon/Examples/ExamplesInc.unitypackage

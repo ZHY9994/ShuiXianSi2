@@ -1,0 +1,7 @@
+{
+  "name": "Coffee.UnmaskForUGUI",
+  "references": [
+    "UnityEngine.UI"
+  ],
+  "allowUnsafeCode": true
+}

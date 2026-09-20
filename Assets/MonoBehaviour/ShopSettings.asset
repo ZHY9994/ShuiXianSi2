@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66c6e0e7a3d06233e67bad6a424e3552, type: 3}
+  m_Name: ShopSettings
+  m_EditorClassIdentifier:
+  General:
+    IsShowLockedItemSilhouettes: 1
+    IsCloseShopOnClickingSelectedItem: 0
+  Appear:
+    AppearDuration: 0.5
+    AppearEase: 27
+    AppearDelay:
+      m_Mode: 1
+      m_CurveMultiplier: 1
+      m_CurveMin:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_CurveMax:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0.0056152344
+          inSlope: 0.1863754
+          outSlope: 0.1863754
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.12979336
+        - serializedVersion: 3
+          time: 10.360695
+          value: 1
+          inSlope: 0.021678403
+          outSlope: 0.021678403
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.304101
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_ConstantMin: 0
+      m_ConstantMax: 0
+  RandomUnlock:
+    SequenceLength: 15
+    Delay:
+      m_Mode: 1
+      m_CurveMultiplier: 0.56661725
+      m_CurveMin:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_CurveMax:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: -0.19914246
+          value: -0.004638672
+          inSlope: 0.07302588
+          outSlope: 0.07302588
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.14159232
+        - serializedVersion: 3
+          time: 5.1374664
+          value: 0.2485612
+          inSlope: 0.04563948
+          outSlope: 0.04563948
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.379289
+        - serializedVersion: 3
+          time: 10.716646
+          value: 0.5509081
+          inSlope: 0.07545323
+          outSlope: 0.07545323
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.14787865
+          outWeight: 0.49832803
+        - serializedVersion: 3
+          time: 13.177259
+          value: 0.881519
+          inSlope: 0.049533375
+          outSlope: 0.049533375
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 15.260276
+          value: 0.92610323
+          inSlope: 0.014906757
+          outSlope: 0.014906757
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.7717444
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_ConstantMin: 0
+      m_ConstantMax: 0
+  Tweens:
+    PunchOnSelect:
+      Power: 0.1
+      Duration: 0.3
+      Vibration: 1
+      Elasticity: 1
+    PunchOnUnlockSelect:
+      Power: 0.1
+      Duration: 0.2
+      Vibration: 1
+      Elasticity: 1
+    PunchOnUnlock:
+      Power: 0.2
+      Duration: 0.5
+      Vibration: 1
+      Elasticity: 1

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3664291a67aa907562d5b18d347226d, type: 3}
+  m_Name: Eyes Only
+  m_EditorClassIdentifier:
+  m_Happy:
+  - {fileID: 2800000, guid: 8f27c4b964d4ea24bb7141625f5d874a, type: 3}
+  - {fileID: 2800000, guid: 2874d3cd5e39a3b469cb851a4c944c11, type: 3}
+  - {fileID: 2800000, guid: 78895a35dfab1b045ac847901f45dae0, type: 3}
+  m_Angry:
+  - {fileID: 2800000, guid: 5e8edd092c1f1e744a3173a0b459a8e2, type: 3}
+  - {fileID: 2800000, guid: 7782139a9a861aa459ead8fcf87ad6ac, type: 3}
+  - {fileID: 2800000, guid: 34f72d04b19c3d9489dedc95e81882aa, type: 3}
+  - {fileID: 2800000, guid: d26037294147df842b0299b88b14c70d, type: 3}
+  m_Death:
+  - {fileID: 2800000, guid: de792ec826a774f44a91d6f4c05c1f0d, type: 3}

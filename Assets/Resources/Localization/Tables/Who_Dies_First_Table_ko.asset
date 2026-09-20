@@ -1,0 +1,534 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Who_Dies_First_Table_ko
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ko
+  m_SharedData: {fileID: 11400000, guid: 6fbb261c7bbf97149b73edb369de75bb, type: 2}
+  m_Metadata:
+    m_Items:
+      Array: []
+  m_TableData:
+  - m_Id: 279799441567744
+    m_Localized: 플레이
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344960
+    m_Localized: 무기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344961
+    m_Localized: 영웅
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344962
+    m_Localized: 광고 중지
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344963
+    m_Localized: 모든 인게임 광고 중지
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344964
+    m_Localized: 모든 스킨 잠금해제
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344965
+    m_Localized: 그것을 잠금해제
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344966
+    m_Localized: VIP 무기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344967
+    m_Localized: VIP 스킨
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344968
+    m_Localized: 상점
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344969
+    m_Localized: 좋은
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344970
+    m_Localized: 희귀히한
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344971
+    m_Localized: 서사급
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539264
+    m_Localized: 신화적
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539265
+    m_Localized: 데크
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539266
+    m_Localized: 배틀 데크
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539267
+    m_Localized: 카드 패키지
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539268
+    m_Localized: 가져오기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539269
+    m_Localized: 건너뛰기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539270
+    m_Localized: 청구
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539271
+    m_Localized: 완료됨
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539272
+    m_Localized: 적 패배함
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539273
+    m_Localized: 계속하기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539274
+    m_Localized: 해제됨
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539275
+    m_Localized: 레벨
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539276
+    m_Localized: 레벨 실패함
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539277
+    m_Localized: 탭해서 다시 시작
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539278
+    m_Localized: 음악
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539279
+    m_Localized: SFX
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539280
+    m_Localized: 진동
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539281
+    m_Localized: 개인정보 보호 설정
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539282
+    m_Localized: 동의 설정
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539283
+    m_Localized: 설정
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539284
+    m_Localized: 레벨
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539285
+    m_Localized: 체력
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539286
+    m_Localized: 보상
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539287
+    m_Localized: 레벨 업
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539288
+    m_Localized: 레벨 N에 도달했습니다
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539289
+    m_Localized: 좋아요!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539290
+    m_Localized: 광고 시청으로 패키지 얻기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539291
+    m_Localized: 광고 시청으로 200-400 달러 얻기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539292
+    m_Localized: 얻기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539293
+    m_Localized: 칼
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539294
+    m_Localized: 볼링 볼
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539295
+    m_Localized: 바위
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539296
+    m_Localized: 도끼
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539297
+    m_Localized: 망치
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539298
+    m_Localized: 축구공
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539299
+    m_Localized: 수류탄
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539300
+    m_Localized: 스파이크
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539301
+    m_Localized: 가위
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539302
+    m_Localized: RPG
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539303
+    m_Localized: 전화
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539304
+    m_Localized: TNT
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539305
+    m_Localized: 정육점 칼
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539306
+    m_Localized: 철퇴
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539307
+    m_Localized: 유도 무기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539308
+    m_Localized: 전기 톱
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539309
+    m_Localized: 집속 수류탄
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539310
+    m_Localized: 칼
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539311
+    m_Localized: 레이저 칼
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539312
+    m_Localized: 토르의 망치
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539313
+    m_Localized: 마녀 폭탄
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539314
+    m_Localized: 화염병
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539315
+    m_Localized: 바나나
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539316
+    m_Localized: 표창
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539317
+    m_Localized: 독약병
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539318
+    m_Localized: 스컹크
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539319
+    m_Localized: 치킨
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539320
+    m_Localized: 치와와
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539321
+    m_Localized: 상어
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539322
+    m_Localized: 신성한 수류탄
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539323
+    m_Localized: 파이프
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539324
+    m_Localized: 병
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539325
+    m_Localized: 데미지
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539326
+    m_Localized: 푸시 포스
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539327
+    m_Localized: 데미지 반경
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539328
+    m_Localized: 업그레이드
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539329
+    m_Localized: 장착하기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539330
+    m_Localized: 무료 레벨 업
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539331
+    m_Localized: 탭해서 열기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539332
+    m_Localized: 사용 중
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539333
+    m_Localized: 수집
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539334
+    m_Localized: 신무기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539335
+    m_Localized: 무기 선택
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539336
+    m_Localized: 무기 교체를 위해 구비
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539337
+    m_Localized: 탭해서 무기 교체
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539338
+    m_Localized: 닫기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539339
+    m_Localized: 교체할 카드 선택
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539340
+    m_Localized: 잠김
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539341
+    m_Localized: 모두 건너뛰기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 662981378748416
+    m_Localized: VIP
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 664642688036864
+    m_Localized: 무료
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 665174341234688
+    m_Localized: 맥스
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 692735196704768
+    m_Localized: '도달한 레벨:'
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1750851673829376
+    m_Localized: 끌어 놓기
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714172406444032
+    m_Localized: 평가해 주세요
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714174486818816
+    m_Localized: 게임이 재밌었다면  여러분의 지지를 보여주시고 게임을 평가해 주세요.
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714176940486656
+    m_Localized: 저희가 성장할 수 있도록 도와주세요!
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714179167662080
+    m_Localized: 나중에요
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714181063487488
+    m_Localized: 아니요
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714183231942656
+    m_Localized: 평가
+    m_Metadata:
+      m_Items:
+        Array: []
+  references:
+    version: 2
+    RefIds: []

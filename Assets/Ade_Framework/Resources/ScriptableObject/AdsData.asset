@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b775ef6dab962994fb3a0babe79ec4d8, type: 3}
+  m_Name: AdsData
+  m_EditorClassIdentifier: 
+  AdData:
+    ID: 
+    InterstitialID:
+      name: "\u63D2\u5C4F"
+      ID: 1d34ne9hjehocbqpik
+    BannerID:
+      name: Ban
+      ID: 
+    RewardID:
+    - name: "\u6FC0\u52B1"
+      ID: ea0jk3f1r7c1o2u0aq
+    GridAdList: []
+    MoreGames:
+      GridCount: 2
+      Size: 1
+      CustomPosition: 0
+      Top: 0
+      Left: 0
+      Queries: []
+    GameClub:
+      OpenLink: 
+    AdShield:
+      EnableTimeShield: 0
+      ShieldStartTime: 2025-05-01 00:00:00
+      ShieldEndTime: 2025-05-01 19:00:00
+      EnableAreaShield: 0
+    AutoInterstitial:
+      EnableAutoInterstitial: 0
+      IntervalSeconds: 30

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3664291a67aa907562d5b18d347226d, type: 3}
+  m_Name: Mouth Only
+  m_EditorClassIdentifier:
+  m_Happy:
+  - {fileID: 2800000, guid: c93b277e319f9c94f9a5618923abc689, type: 3}
+  - {fileID: 2800000, guid: f59688d929047ed4daed13717de5fffe, type: 3}
+  - {fileID: 2800000, guid: caf4b46489c571e4285d3f64f95b291c, type: 3}
+  m_Angry:
+  - {fileID: 2800000, guid: eb83d7e776d63ee4c95a965c98772eee, type: 3}
+  - {fileID: 2800000, guid: 4f0d7d8a6196c764b840cbc1bec64f57, type: 3}
+  - {fileID: 2800000, guid: 24108378ac4034f4aaf3bcf8b8c79b47, type: 3}
+  - {fileID: 2800000, guid: a77f190d54d22ef4896663ed42e99fac, type: 3}
+  m_Death:
+  - {fileID: 2800000, guid: 867bbc3f6daff0f4e91f8def673586fd, type: 3}

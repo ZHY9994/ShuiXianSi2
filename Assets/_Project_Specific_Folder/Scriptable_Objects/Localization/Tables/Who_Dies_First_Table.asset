@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Who_Dies_First_Table
+  m_EditorClassIdentifier: Unity.Localization.Editor::UnityEditor.Localization.StringTableCollection
+  m_SharedTableData: {fileID: 11400000, guid: 6fbb261c7bbf97149b73edb369de75bb, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 3dc17154a9ed60046b33ee2f747cdd4e, type: 2}
+  - {fileID: 11400000, guid: d4f404ce1458b7c4996520f626a8b5e0, type: 2}
+  - {fileID: 11400000, guid: 437c6ab2651982c4a867f6c6e86e871d, type: 2}
+  - {fileID: 11400000, guid: c80b4a7d3b1e4ff899bd4f9502d6ea40, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

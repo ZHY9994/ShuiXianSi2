@@ -1,0 +1,2429 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcc107f85e5e9184e0f8d0294ef98263, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier:
+  IsIOSATT: 0
+  ATTPrivacyPolicy: https://aigames.ae/policy
+  MAXControlsLocalizations: 0
+  AdsMediation:
+    dummyText:
+    m_UseDummyAdsOnDevice: 0
+    m_PlacementIDPair:
+      keyData: 0300000001000000ffffffff0600000007000000040000000e0000000b0000000d0000000c0000000f000000
+      valueData:
+      - Shop_Unlock_Skin
+      - Level_Completed_Claim_RV
+      - Debug
+      - LevelComplete_Get_Package
+      - LevelComplete_Get_Weapon
+      - Shop_Upgrade_Weapon
+      - Shop_Get_Package
+      - Shop_Unlock_Weapon_RARE
+      - Shop_Unlock_Weapon_MYTHIC
+      - Shop_Unlock_Weapon_EPIC
+      - LevelComplete_x3_x5
+  ResolutionsData:
+    m_ResolutionDatas:
+    - Name: "Apple iPhone 5, 5S, 5C, SE\t"
+      Width: 640
+      Height: 1136
+      DPI: 326
+    - Name: Apple iPhone 6, 6S, 7
+      Width: 750
+      Height: 1334
+      DPI: 326
+    - Name: Apple iPhone 6 Plus, 6S Plus, 7 Plus
+      Width: 1080
+      Height: 1920
+      DPI: 401
+    - Name: Apple iPhone X, XS
+      Width: 1125
+      Height: 2436
+      DPI: 463
+    - Name: Apple iPhone XR
+      Width: 828
+      Height: 1792
+      DPI: 324
+    - Name: Apple iPhone XS Max
+      Width: 1242
+      Height: 2688
+      DPI: 456
+    - Name: "Apple iPad 1, 2\t"
+      Width: 1024
+      Height: 768
+      DPI: 132
+    - Name: Apple iPad 3, 4
+      Width: 2048
+      Height: 1536
+      DPI: 264
+    - Name: Apple iPad Air 1, 2
+      Width: 2048
+      Height: 1536
+      DPI: 264
+    - Name: Apple iPad mini
+      Width: 1024
+      Height: 768
+      DPI: 162
+    - Name: Apple iPad mini Retina
+      Width: 2048
+      Height: 1536
+      DPI: 324
+    - Name: Apple iPad Pro (1) 9.7
+      Width: 2224
+      Height: 1668
+      DPI: 265
+    - Name: Apple iPad Pro (2) 10.5
+      Width: 2224
+      Height: 1668
+      DPI: 265
+    - Name: Apple iPad Pro (3) 11
+      Width: 2388
+      Height: 1668
+      DPI: 265
+    - Name: Apple iPad Pro (1-3) 12.9
+      Width: 2732
+      Height: 2048
+      DPI: 265
+    - Name: Samsung Galaxy S8
+      Width: 2960
+      Height: 1440
+      DPI: 568
+    - Name: iPhone 6 Plus/6S Without downsampling
+      Width: 1242
+      Height: 2208
+      DPI: 461
+    IsDebugEnabled: 1
+  Debug:
+    m_DebugMode: 1
+    m_GodMode: 0
+    m_EmulateLowFPS: 0
+    LowFPSValues: {x: 5, y: 20}
+    IphoneXDiagramPrefab: {fileID: 1709254077376921, guid: cb87d6e6c41d58c40948eeded2587891, type: 2}
+    AdsDebugButtonsPrefab: {fileID: 1709254077376921, guid: 5d6203e4ca2c32c41b7bfc436c834f4d, type: 2}
+    m_ShowFPSCounter: 0
+    FPSCounterPrefab: {fileID: 1709254077376921, guid: 9e48744918f99d64d96b46dbdc27cd48, type: 2}
+    m_ShowGameLoopButtons: 0
+    GameLoopButtonsPrefab: {fileID: 1709254077376921, guid: 5b76a6ad92fb48a4d96efb1025128b82, type: 2}
+    m_ShowMediationTester: 0
+    MediationTesterPrefab: {fileID: 1709254077376921, guid: aa12f14f5d1547240abac310baa628f0, type: 2}
+    m_UnlimitedHealth: 0
+    m_DebugWeapon: 0
+    m_WeaponType: 010000000100000001000000
+  Input:
+    DragSensitivity: {x: 1, y: 1}
+    IsUseJoystick: 1
+    Joystick:
+      IsShowVisuals: 0
+      IsStatic: 0
+      IsResetDirection: 0
+      Radius: 0.4
+      HandleRadiusMultiplier: 0.42
+    CalculateMultiTouch: 0
+  GamePlay:
+    UnitData:
+      Player:
+        DragDistanceMinMax: {x: 20, y: 300}
+        MinimumDrag: 20
+        KickDamageRange: {x: 2, y: 7}
+        KickPushForce: 26.75
+        ReceiveDamageReduction: {x: 1, y: 0.3}
+      AI:
+        ThrowDuration: 1
+        TrueShotChance: 0.45
+        RandomAngleRange: {x: 110, y: 130}
+        RandomForceRange: {x: 6, y: 9}
+        TutorialRandomAngleRange: {x: 110, y: 130}
+        TutorialRandomForceRange: {x: 4, y: 10}
+        ForceMinMax: {x: 3.5, y: 7}
+        HForceMinMax: {x: 2, y: 5}
+        MaxDistance: 6.5
+        PrecisionCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0.06465582
+            outSlope: 0.06465582
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.20175588
+          - serializedVersion: 3
+            time: 0.49711433
+            value: 0.99629956
+            inSlope: 0.15305877
+            outSlope: 0.15305877
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.18404102
+          - serializedVersion: 3
+            time: 1
+            value: 0.0015640259
+            inSlope: -0.026833218
+            outSlope: -0.026833218
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.112194374
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        PrecisionOffsetMinMax: {x: 0.65, y: 0.75}
+        hPrecisionOffsetMinMax: {x: 0.8, y: 1.5}
+        GroundLayer:
+          serializedVersion: 2
+          m_Bits: 64
+        Visuals:
+          m_SkinData:
+            keyData:
+            - Base_1
+            valueData:
+            - HealthBarIcon: {fileID: -2374222918679686493, guid: 2c79635412ba0cd448fa390b3668687e, type: 3}
+              SkinColor: {r: 1, g: 0.6039216, b: 0, a: 1}
+          DeathColor: {r: 0.41568628, g: 0.41568628, b: 0.41568628, a: 1}
+      GeneralUnitParameters:
+        HealthPerLevel: 30
+        UseIK: 1
+        IKWeight: 0.45
+        BodyWeight: 1
+        HeadWeight: 1
+        DefaultHitEvent:
+        - animationState: Fall
+          crossfadeTime: 0.7
+          layer: 0
+          resetNormalizedTime: 0
+        GroundLayer:
+          serializedVersion: 2
+          m_Bits: 64
+        YOffset: 0.3
+        RayMaxDistance: 0.35
+        EnabledTag: 0
+        DisabledTag: 2
+        m_Face:
+          m_FaceTextureDict:
+            keyData:
+            - Base
+            - FNAF Bear
+            - Homer
+            - Stormtrooper
+            - Bond
+            - Squid Game 1
+            - Rocky
+            - Joker
+            - Squid Game 2
+            - Ironman
+            - Golden
+            - Astronaut
+            - C3PO
+            - CorpseBride
+            - Genie
+            - Grinch
+            - Harley
+            - Incredibles
+            - Jason
+            - Joker2
+            - Octopus
+            - Panda
+            - Rick
+            - Shrek
+            - Turtle
+            - Wednesday
+            - WonderWoman
+            valueData:
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: c531bb088cf7ef4488e60303fc0aad47, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: c531bb088cf7ef4488e60303fc0aad47, type: 2}
+            - {fileID: 11400000, guid: c4541e4ffcef9bc488c3fe614bc4687d, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 6050a7b1ccfd44344b30c446cea916fb, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: c4541e4ffcef9bc488c3fe614bc4687d, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: c4541e4ffcef9bc488c3fe614bc4687d, type: 2}
+            - {fileID: 11400000, guid: c4541e4ffcef9bc488c3fe614bc4687d, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 7f4d0bf2586b3c64184c7ff265139683, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+            - {fileID: 11400000, guid: 5d7dbbfdd71be124ea3bda9ce2f1dc8c, type: 2}
+        Outlines:
+          m_Outline:
+            keyData: 000000000100000002000000
+            valueData:
+            - m_Outlines:
+              - Outline: 0
+                Material: {fileID: 2100000, guid: 39521deaaaf9b604ba32288aae464cbe, type: 2}
+              - Outline: 1
+                Material: {fileID: 2100000, guid: 9bdf9ae55fe9f0b4aa12052c94f74a0b, type: 2}
+              - Outline: 2
+                Material: {fileID: 2100000, guid: 00f10dab2df5e9c4baf82576f28f307e, type: 2}
+            - m_Outlines:
+              - Outline: 0
+                Material: {fileID: 2100000, guid: aba44db0425a94c4aa465487b357a5d4, type: 2}
+              - Outline: 1
+                Material: {fileID: 2100000, guid: c995ccba29de36440a4baba28d039446, type: 2}
+              - Outline: 2
+                Material: {fileID: 2100000, guid: c73dcb694b4a6cd4082fa93d211638c2, type: 2}
+            - m_Outlines:
+              - Outline: 0
+                Material: {fileID: 2100000, guid: 8519c7e143f3e9b4592acb227519fe64, type: 2}
+              - Outline: 1
+                Material: {fileID: 2100000, guid: b1b95cf4988f09d4dab864594756b5b0, type: 2}
+              - Outline: 2
+                Material: {fileID: 2100000, guid: f9be280c0fa150a49870fadb77697da3, type: 2}
+        UseOutline: 0
+        OutlineWidth: 20
+        DamageIncreaseLevelsPlayer: 1.3
+        DamageIncreaseLevelsAI: 1.4
+    WeaponData:
+      General:
+        HeadShotMultiplierPlayer: 2.5
+        HeadShotMultiplierAI: 2
+        BodyShotMultiplier: 1.4
+        LimbShotMultiplier: 1
+        ExplosiveCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0.0026512146
+            value: 1.0062866
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.99468994
+            value: 0.025039673
+            inSlope: -2.0544536
+            outSlope: -2.0544536
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.02760771
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        VelocityCurve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 2
+            outSlope: 2
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        MinMaxVelocity: {x: 0, y: 12}
+        StopVelocity: 2
+        ActiveDuration: 2.5
+        DamageDelay: 0
+        ThrowDistanceThreshold: 0.95
+        PushBodyYOffset: 0.5
+        CollisionLayer: 7
+        NoCollisionLayer: 2
+        HitDelay: 0.2
+        DefaultHitEvent:
+        - animationState: Fall
+          crossfadeTime: 0.7
+          layer: 0
+          resetNormalizedTime: 0
+        HideDelay: 10
+        m_HideTween:
+          Vector: {x: 0, y: 0, z: 0}
+          Duration: 0.5
+          Ease: 26
+          Delay: 0
+        CuttingWeaponStickValue: -0.2
+      Weapons:
+        CutterWeapons:
+          Knife:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: ccef08265711e0546b258a029e9231f1, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Knife
+              BaseHitDamage: 6
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 100
+              Mass: 5
+              Unpin: 20
+              IsStickable: 1
+              StickMultiplier: 1.3
+          Axe:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 08189f3a9cf3bc84dab8ff54d87acf4d, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Axe
+              BaseHitDamage: 9
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 5
+              Unpin: 25
+              IsStickable: 1
+              StickMultiplier: 1.3
+          ButcherKnife:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: e78794b3893265f44ba60e357943c357, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Butcher Knife
+              BaseHitDamage: 12
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 5
+              Unpin: 20
+              IsStickable: 1
+              StickMultiplier: 1.3
+          ChainSaw:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 99690b78ac2146240b1217564e2ce521, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: ChainSaw
+              BaseHitDamage: 18
+              ThrowForce: 11
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 2
+              Unpin: 15
+              IsStickable: 1
+              StickMultiplier: 1.3
+          LaserSword:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 1e612e3a34987fe4f8dcad9e86494244, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Laser Sword
+              BaseHitDamage: 20
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 2
+              Unpin: 15
+              IsStickable: 1
+              StickMultiplier: 1.3
+          Scissors:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: f7c04652e0c5bb446a949ee5aa0a5c25, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Scissors
+              BaseHitDamage: 7
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 5
+              Unpin: 15
+              IsStickable: 1
+              StickMultiplier: 1.3
+          Sword:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 949850909ded3d34da1160c55581957d, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Sword
+              BaseHitDamage: 15
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 3
+              Unpin: 15
+              IsStickable: 1
+              StickMultiplier: 1.3
+        BeatingWeapons:
+          MobilePhone:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: c6b05023b782ff14da9d428412d18c4a, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Phone
+              BaseHitDamage: 14
+              ThrowForce: 11
+              TorqueForce: 20
+              PushForce: 3000
+              Mass: 10
+              Unpin: 10
+              BounceForce: 5
+          Rock:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 9020afacc03584d4f93d8f1ffe2c1649, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Rock
+              BaseHitDamage: 7
+              ThrowForce: 11.5
+              TorqueForce: 20
+              PushForce: 3000
+              Mass: 2
+              Unpin: 10
+              BounceForce: 5
+          BowlingBall:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 0c9c709eeae4bfe40b1624ab007d65db, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Bowling Ball
+              BaseHitDamage: 8
+              ThrowForce: 10.5
+              TorqueForce: 30
+              PushForce: 4000
+              Mass: 2
+              Unpin: 10
+              BounceForce: 5
+          BallWithSpikes:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: acaa2767dad64734c8a0825659ca2e24, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Spikes
+              BaseHitDamage: 12
+              ThrowForce: 11
+              TorqueForce: 50
+              PushForce: 3500
+              Mass: 2
+              Unpin: 10
+              BounceForce: 5
+          Hammer:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 4ae7d481f17f1a2458f6e20747f1840c, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Hammer
+              BaseHitDamage: 10
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 4000
+              Mass: 2
+              Unpin: 10
+              BounceForce: 5
+          Mase:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 19ee462f2886ce74c9c13f36c8dccece, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Mase
+              BaseHitDamage: 15
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 5000
+              Mass: 2
+              Unpin: 10
+              BounceForce: 5
+          FootBall:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 1cb1a28ffa2443148be6981855fa646e, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: FootBall
+              BaseHitDamage: 8
+              ThrowForce: 12
+              TorqueForce: 20
+              PushForce: 4000
+              Mass: 2
+              Unpin: 10
+              BounceForce: 5
+          Pipe:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: f5d5934f5261a914e8db031d7e73f74b, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Pipe
+              BaseHitDamage: 9
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 4000
+              Mass: 5
+              Unpin: 10
+              BounceForce: 5
+          Bottle:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 4e16a5807a80a6f4f9d58cce941250bf, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Bottle
+              BaseHitDamage: 8
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 2000
+              Mass: 2
+              Unpin: 10
+              BounceForce: 5
+        ExplosiveWeapons:
+          Grenade:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: e9d0ce6cec800c5499d04152cf64f27e, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Grenade
+              BaseHitDamage: 2
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 35
+              Mass: 2
+              ExplosiveDamage: 16
+              ExplosionBaseRadius: 1.8
+              ExplosionDelay: 2
+          Tnt:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 712f340c872ddfa4e88f87cb82aca6da, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: TNT
+              BaseHitDamage: 5
+              ThrowForce: 12
+              TorqueForce: 20
+              PushForce: 45
+              Mass: 2
+              ExplosiveDamage: 23
+              ExplosionBaseRadius: 2.2
+              ExplosionDelay: 2.3
+          WitchBomb:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: b4de1efb64180e6468dde3ca9555351b, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Witch Bomb
+              BaseHitDamage: 3
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 50
+              Mass: 2
+              ExplosiveDamage: 40
+              ExplosionBaseRadius: 2.3
+              ExplosionDelay: 2.3
+        FragmentedWeapons:
+          HolyGrenade:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: a128ccb4e89963d43bffa17c9d44e673, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Holy Grenade
+              BaseHitDamage: 30
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 35
+              Mass: 2
+              FragmentExplosionDamage: 10
+              FragImpactForce: 40
+              FragCount: 10
+              FragTorque: 10
+              FragExplosionRadius: 1.4
+              MinMaxFragPushForce: {x: 3, y: 9}
+              FragSpread:
+              - 0
+              - -0.4
+              - -0.9
+              - -2
+              - -20
+              - -25
+              - -30
+              - 1
+              - 5
+              - -40
+          Shuriken:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 86d21dee70511084aa1e08956e8c26f9, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Shuriken
+              BaseHitDamage: 25
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 2
+              FragmentExplosionDamage: 12
+              FragImpactForce: 5
+              FragCount: 5
+              FragTorque: 10
+              FragExplosionRadius: 1.5
+              MinMaxFragPushForce: {x: 3, y: 5}
+              FragSpread:
+              - 0
+              - -0.4
+              - -0.9
+              - -2
+              - -20
+          Banana:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: c4a4638ca84482441b6af8fa54008e51, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Banana
+              BaseHitDamage: 10
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 5
+              Mass: 2
+              FragmentExplosionDamage: 8
+              FragImpactForce: 5
+              FragCount: 5
+              FragTorque: 10
+              FragExplosionRadius: 1.5
+              MinMaxFragPushForce: {x: 2, y: 9}
+              FragSpread:
+              - 0
+              - -0.4
+              - -0.9
+              - -2
+              - -20
+          ClusterGrenade:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 193deeed97bffa34d9a1de0a0d5de7a0, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Cluster Grenade
+              BaseHitDamage: 4
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 2
+              FragmentExplosionDamage: 6
+              FragImpactForce: 5
+              FragCount: 5
+              FragTorque: 10
+              FragExplosionRadius: 1.6
+              MinMaxFragPushForce: {x: 2, y: 9}
+              FragSpread:
+              - 0
+              - -0.4
+              - -0.9
+              - -2
+              - -20
+              ExplosiveDamage: 15
+              ExplosionRadius: 1.8
+          Molotov:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 6e179dff3a3e83c4d9a1aa7f5580ec68, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Molotov
+              BaseHitDamage: 40
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 2
+              FragmentExplosionDamage: 6
+              FragImpactForce: 5
+              FragCount: 5
+              FragTorque: 10
+              FragExplosionRadius: 1.4
+              MinMaxFragPushForce: {x: 2, y: 6}
+              FragSpread:
+              - 0
+              - -0.4
+              - -0.9
+              - -2
+              - -20
+              ExplosionDamage: 20
+              ExplosionRadius: 1.7
+              MolotovDuration: 4
+              MolotovDamageInterval: 0.5
+              MolotovDamage: 3
+        AnimalWeapons:
+          Chicken:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: a5f34bf17fe8a2c48af349fe53d5f465, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Chicken
+              BaseHitDamage: 6
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 2
+              Mass: 10
+              StickableHitDelay: 0.15
+              StickableMaxHit: 10
+              ExplosionDamage: 10
+              ExplosionBaseRadius: 1.5
+              ExplosionDelay: 2.5
+              HitEvent:
+              - animationState: Fall
+                crossfadeTime: 0.7
+                layer: 0
+                resetNormalizedTime: 0
+          Chihuahua:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 422b0d61391102b48b0fe25714962a50, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Chihuahua
+              BaseHitDamage: 7
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 1
+              StickableHitDelay: 0.2
+              StickableMaxHit: 8
+              ExplosionDamage: 15
+              ExplosionBaseRadius: 2
+              ExplosionDelay: 2.5
+              HitEvent:
+              - animationState: Fall
+                crossfadeTime: 0.7
+                layer: 0
+                resetNormalizedTime: 0
+          Shark:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 8286e9d27eace6f4a96d2bab10a7dae3, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Shark
+              BaseHitDamage: 3
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 2
+              Mass: 10
+              StickableHitDelay: 0.2
+              StickableMaxHit: 7
+              ExplosionDamage: 10
+              ExplosionBaseRadius: 1.2
+              ExplosionDelay: 2.5
+              HitEvent:
+              - animationState: Fall
+                crossfadeTime: 0.7
+                layer: 0
+                resetNormalizedTime: 0
+        LauncherWeapons:
+          RPG:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 583bc4e64b7cbee4ca10497d86cc2476, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: RPG
+              BaseHitDamage: 13
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 30
+              Mass: 2
+              ExplosionDamage: 20
+              ExplosionRadius: 1.6
+          HomingMissile:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: e13a0d16b65965d43b7259d07864ba88, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Homing
+              BaseHitDamage: 7
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 2
+              ExplosionDamage: 9
+              ExplosionRadius: 1.6
+              FragSpread:
+              - 0
+              - 5
+              - -5
+              - 10
+        SpecialWaapons:
+          ThorHammer:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 892d5608a213ec744909e6db4ee9ac48, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Thor Hammer
+              BaseHitDamage: 20
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 2
+              AttackDelay: 0.6
+          PoisonFlask:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: 5ebd4082faaf96a478fad7638da150db, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Poison Flask
+              BaseHitDamage: 8
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 2
+              GasDamage: 8
+              GasDuration: 4
+              GasRadius: 1.5
+              GasDamageInterval: 0.8
+          Skunk:
+            WeaponDesciption:
+            Icon: {fileID: 21300000, guid: bfc7a9f6eb667294d9202e140ab3960c, type: 3}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: Skunk
+              BaseHitDamage: 30
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 20
+              Mass: 2
+              ExplosionDamage: 30
+              ExplosionRadius: 2
+              GasRadius: 1.3
+              GasDamage: 4
+              GasDamgeInterval: 0.2
+              GasDuration: 4.5
+          DummyWeapon:
+            WeaponDesciption:
+            Icon: {fileID: 0}
+            PowerIcons: []
+            m_WeaponParameter:
+              Name: DummyWeapon
+              BaseHitDamage: 1
+              ThrowForce: 10
+              TorqueForce: 20
+              PushForce: 2000
+              Mass: 2
+      Upgrade:
+        m_UpgradeData:
+          keyData: 0200000003000000040000000500000006000000070000000800000001000000
+          valueData:
+          - RequiredNumberOfCards: 2
+            Price: 100
+            Multiplier: 1.1
+          - RequiredNumberOfCards: 4
+            Price: 150
+            Multiplier: 1.2
+          - RequiredNumberOfCards: 10
+            Price: 200
+            Multiplier: 1.3
+          - RequiredNumberOfCards: 20
+            Price: 300
+            Multiplier: 1.4
+          - RequiredNumberOfCards: 50
+            Price: 500
+            Multiplier: 1.5
+          - RequiredNumberOfCards: 100
+            Price: 1000
+            Multiplier: 1.6
+          - RequiredNumberOfCards: 100
+            Price: 10000
+            Multiplier: 1.8
+          - RequiredNumberOfCards: 0
+            Price: 0
+            Multiplier: 1
+    DeckData:
+      m_DeckSlots:
+      - Name: DeckSlot_1
+        Index: 0
+      - Name: DeckSlot_2
+        Index: 1
+      - Name: DeckSlot_3
+        Index: 2
+      - Name: DeckSlot_4
+        Index: 3
+      - Name: DeckSlot_5
+        Index: 4
+      - Name: DeckSlot_6
+        Index: 5
+      - Name: DeckSlot_7
+        Index: 6
+      - Name: DeckSlot_8
+        Index: 7
+    Trajectory:
+      General:
+        DotCount: 11
+        DotSpacing: 1.5
+        ScaleMinMax: {x: 0.09, y: 0.15}
+        DotColor:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 1}
+          key1: {r: 1, g: 1, b: 1, a: 0}
+          key2: {r: 0, g: 0, b: 0, a: 0}
+          key3: {r: 0, g: 0, b: 0, a: 0}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 50855
+          ctime2: 0
+          ctime3: 0
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 47054
+          atime1: 65535
+          atime2: 65535
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: -1
+          m_NumColorKeys: 2
+          m_NumAlphaKeys: 2
+        PrevDotColor:
+          serializedVersion: 2
+          key0: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 1}
+          key1: {r: 0.16078432, g: 0.16078432, b: 0.16078432, a: 0}
+          key2: {r: 0, g: 0, b: 0, a: 0}
+          key3: {r: 0, g: 0, b: 0, a: 0}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 0
+          ctime1: 50855
+          ctime2: 0
+          ctime3: 0
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 65535
+          atime2: 0
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: -1
+          m_NumColorKeys: 2
+          m_NumAlphaKeys: 2
+      Tutorial:
+        CorrectThreshold: 0.6
+        ScaleMinMax: {x: 0.12, y: 0.22}
+        CorrectGradient:
+          serializedVersion: 2
+          key0: {r: 1, g: 1, b: 1, a: 1}
+          key1: {r: 0.39215687, g: 1, b: 0.25882354, a: 1}
+          key2: {r: 0, g: 0, b: 0, a: 1}
+          key3: {r: 0, g: 0, b: 0, a: 0}
+          key4: {r: 0, g: 0, b: 0, a: 0}
+          key5: {r: 0, g: 0, b: 0, a: 0}
+          key6: {r: 0, g: 0, b: 0, a: 0}
+          key7: {r: 0, g: 0, b: 0, a: 0}
+          ctime0: 12517
+          ctime1: 42598
+          ctime2: 0
+          ctime3: 0
+          ctime4: 0
+          ctime5: 0
+          ctime6: 0
+          ctime7: 0
+          atime0: 0
+          atime1: 32309
+          atime2: 65535
+          atime3: 0
+          atime4: 0
+          atime5: 0
+          atime6: 0
+          atime7: 0
+          m_Mode: 0
+          m_ColorSpace: -1
+          m_NumColorKeys: 2
+          m_NumAlphaKeys: 3
+        m_TutorialData:
+        - Name: Knife
+          PushDirection: {x: 0, y: 2.371323, z: 9.714773}
+          Offset: 0.08
+        - Name: Grenade
+          PushDirection: {x: 0, y: 6.210119, z: 4.639744}
+          Offset: 0.3
+    MatchMakingParameters:
+      MinMaxVelocity: {x: 2500, y: 5000}
+      StartGameDelay: 0.5
+      CharacterNameLimit: 6
+      m_Names:
+      - Waffle
+      - Papa
+      - Smurf
+      - 57
+      - Pixels
+      - Hog
+      - Hyper
+      - Pluto
+      - Alpha
+      - Jester
+      - Pogue
+      - Jigsaw
+      - Angler
+      - Joker
+      - Grin
+      - Judge
+      - Pusher
+      - Bitmap
+      - Dog
+      - K-9
+      - Bowie
+      - Bowler
+      - Bugger
+      - Cabbie
+      - Little
+      - Cobra
+      - Mad
+      - ' Jack'
+      - Mad
+      - Rascal
+      - Cosmo
+      - Mental
+      - Midas
+      - Cujo
+      - Swerve
+      - Dangle
+      - Mr44
+      - Desert
+      - Haze
+      - Digger
+      - Dredd
+      - Toe
+      - Murmur
+      - Nacho
+      - Trip
+      - Twitch
+      - Nessie
+      - Flakes
+      - Flint
+      - Vortex
+      - Freak
+      - Washer
+      - Glyph
+      - Wheels
+      - Osprey
+      - Zod
+      - Obinna
+      - Stas
+      - Giorgi
+      - Ahsen
+      Flags:
+      - {fileID: 21300000, guid: a8015f8fdf9556442bffe4b0dc40e0c1, type: 3}
+      - {fileID: 21300000, guid: 730f07a436954e84d943b84fdedb7c51, type: 3}
+      - {fileID: 21300000, guid: 9e480cf822b502740bc68aee8e611ac2, type: 3}
+      - {fileID: 21300000, guid: 130ccd4b53d650447a21ed0ffc51e50d, type: 3}
+      - {fileID: 21300000, guid: e9e9c76425fd1ff40b3ba553b60db23c, type: 3}
+      - {fileID: 21300000, guid: 7b2e5b275053d7145bf31102aecbdba8, type: 3}
+      - {fileID: 21300000, guid: 901116a3431a1f142a21b8713fe5814d, type: 3}
+      - {fileID: 21300000, guid: 92d7dd69b21f3cb4ea68837a4b6bb921, type: 3}
+      - {fileID: 21300000, guid: d88c8f77446121c4ba71a18cfe435824, type: 3}
+      - {fileID: 21300000, guid: 167e90eae596a374ea044a2cccd03de0, type: 3}
+      - {fileID: 21300000, guid: a747a13d0a081b34bb69dbf402fcccd9, type: 3}
+      - {fileID: 21300000, guid: 52dc5a03a375f3f4ea27718fd4b68735, type: 3}
+      - {fileID: 21300000, guid: 04e3b813910d3e14ca28a5c018453552, type: 3}
+      - {fileID: 21300000, guid: 77c206871fe0fcd4bb1a6252c3aafe47, type: 3}
+      - {fileID: 21300000, guid: 936dc88c9364f484bac113b43eff525c, type: 3}
+      - {fileID: 21300000, guid: 6fc5cce42f78e604f95966608542ec3a, type: 3}
+      - {fileID: 21300000, guid: 9bcef85ee6daf9c439d4e2cb472adb2b, type: 3}
+      - {fileID: 21300000, guid: ff1d532b470dd7b4bb3c30fd88be7984, type: 3}
+      - {fileID: 21300000, guid: 1ab302de443ad3145a2651e4788a4f1b, type: 3}
+      - {fileID: 21300000, guid: 830df0c4f572e014ab2a3dcae619c332, type: 3}
+    ObstacleParameters:
+      MiddleObstacleWall: 1
+      InvisibleWallOffset: 1
+      ExplosiveBarrel:
+        ExplosionRadius: 1.7
+        ExplosionDamage: 40
+        PushForce: 100
+      WoodenCrate:
+        MinImpulseForce: 8
+        MinMaxFragRepulse:
+          Min: 4.5
+          Max: 7.5
+        ShankPushForce: 10
+        MinMaxShankDamage:
+          Min: 0.01
+          Max: 0.06
+        MinMaxShankDamagePlayer:
+          Min: 0.01
+          Max: 0.03
+        MinMaxShankHideDuration:
+          Min: 3
+          Max: 4
+    BackgroundParameters:
+      UseParallaxEffect: 1
+      LerpSpeed: 5
+      BackgroundData:
+        PartDatas:
+        - Part: 0
+          SpeedCoefficient: 0.1
+        - Part: 1
+          SpeedCoefficient: 0.07
+        - Part: 2
+          SpeedCoefficient: 0.05
+    Effects:
+      DamagePopUp:
+        SpawnOffset: 0.65
+        DamageColor: {r: 1, g: 0.1273585, b: 0.1273585, a: 1}
+        MinMaxYOffset:
+          Min: 0
+          Max: 0.5
+        MinMaxZOffset:
+          Min: -0.5
+          Max: 0.5
+        MoveUp:
+          Vector: {x: 0, y: 0.7, z: 0}
+          Duration: 0.6
+          Ease: 0
+          Delay: 0
+        ScaleOut:
+          Vector: {x: 1.1, y: 1.1, z: 1.1}
+          Duration: 0.4
+          Ease: 27
+          Delay: 0
+        ScaleIn:
+          Vector: {x: 0.5, y: 0.5, z: 0.5}
+          Duration: 0.1
+          Ease: 3
+          Delay: 0.4
+      HeadShot:
+        SpawnOffset: 0
+        RotationMinMax: {x: 5, y: 10}
+        MoveUp:
+          Vector: {x: 0, y: 1.7, z: 0}
+          Duration: 0.3
+          Ease: 6
+          Delay: 0
+        ScaleOut:
+          Vector: {x: 1.7, y: 1.7, z: 1.7}
+          Duration: 0.7
+          Ease: 27
+          Delay: 0
+        ScaleScaleIn:
+          Vector: {x: 0.2, y: 0.2, z: 0.2}
+          Duration: 0.2
+          Ease: 5
+          Delay: 0.1
+    BoosterData:
+      BoosterRewardProbability: 0.12
+      BoosterSprites:
+      - {fileID: 21300000, guid: e7e3d6b10aaa2fc4fa5b8d34ac42f48d, type: 3}
+      - {fileID: 21300000, guid: 26ee04106560a24449fbbd5d601d7ad1, type: 3}
+      - {fileID: 21300000, guid: 36490c04574c08f499a310ab0ed50bb7, type: 3}
+      RevealAnimData:
+        Duration: 0.6
+        Ease: 4
+        DelayBeforeSlotReveal: 0
+        BoosterRewardCloseDelay: 1
+        ShakeDuration: 4
+        ShakeStrength: {x: 9, y: 9, z: 9}
+        Vibrator: 8
+        ScreenFadeDuration: 1.2
+        ScreenFadeEase: 2
+      DictionarySlotData:
+        keyData: 03000000080000000f0000001c00000016000000
+        valueData:
+        - Slots:
+          - Random: 0
+            WeaponType: 0
+            AddCount: 5
+          - Random: 0
+            WeaponType: 12
+            AddCount: 8
+          - Random: 0
+            WeaponType: 5
+            AddCount: 4
+          - Random: 0
+            WeaponType: 1
+            AddCount: 5
+          - Random: 1
+            WeaponType: 0
+            AddCount: 3
+        - Slots:
+          - Random: 0
+            WeaponType: 6
+            AddCount: 10
+          - Random: 1
+            WeaponType: 0
+            AddCount: 3
+          - Random: 1
+            WeaponType: 0
+            AddCount: 3
+          - Random: 0
+            WeaponType: 2
+            AddCount: 8
+          - Random: 1
+            WeaponType: 0
+            AddCount: 3
+        - Slots:
+          - Random: 0
+            WeaponType: 12
+            AddCount: 10
+          - Random: 0
+            WeaponType: 1
+            AddCount: 10
+          - Random: 0
+            WeaponType: 2
+            AddCount: 10
+          - Random: 1
+            WeaponType: 0
+            AddCount: 3
+          - Random: 0
+            WeaponType: 11
+            AddCount: 7
+        - Slots:
+          - Random: 0
+            WeaponType: 18
+            AddCount: 15
+          - Random: 0
+            WeaponType: 15
+            AddCount: 11
+          - Random: 0
+            WeaponType: 0
+            AddCount: 11
+          - Random: 1
+            WeaponType: 0
+            AddCount: 3
+          - Random: 1
+            WeaponType: 0
+            AddCount: 3
+        - Slots:
+          - Random: 0
+            WeaponType: 19
+            AddCount: 15
+          - Random: 1
+            WeaponType: 0
+            AddCount: 3
+          - Random: 1
+            WeaponType: 0
+            AddCount: 3
+          - Random: 1
+            WeaponType: 0
+            AddCount: 3
+          - Random: 1
+            WeaponType: 0
+            AddCount: 3
+    AudioDataEditor:
+      Menu:
+        Clip: {fileID: 8300000, guid: 56a4e73d1d79e2047a62f3965d1223e2, type: 3}
+        Volume: 0.7
+      Combat:
+        Clip: {fileID: 8300000, guid: 187e9390f5450a34a8876509f738a8cd, type: 3}
+        Volume: 0.7
+      FadeDuration: 1
+      VolumeChangesPerSecond: 10
+      m_GeneralAudioDictionary:
+        keyData: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
+        valueData:
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: c329919c67c1a6140a1ad22ee48963f3, type: 3}
+            Volume: 0.6
+          - Clip: {fileID: 8300000, guid: 635ede92f6c5e994086695ced8bd515a, type: 3}
+            Volume: 0.6
+          - Clip: {fileID: 8300000, guid: 15f5e07a08d7e3148a020885a8fab62b, type: 3}
+            Volume: 0.6
+          - Clip: {fileID: 8300000, guid: 1788d6ad03f20de4d97ced378508e897, type: 3}
+            Volume: 0.6
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: e74f3d0fb52aca747a8e07f97d15597b, type: 3}
+            Volume: 0.6
+          - Clip: {fileID: 8300000, guid: 88f4b306ad867cd4e9c8d516d952304d, type: 3}
+            Volume: 0.6
+          - Clip: {fileID: 8300000, guid: ed5325304a5678b42886ce3abcc804f0, type: 3}
+            Volume: 0.6
+          - Clip: {fileID: 8300000, guid: 35932487f02fc1f428630fa51d2b0bd0, type: 3}
+            Volume: 0.6
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: 871a7f3aba5c79b42b9b811a59f02dfa, type: 3}
+            Volume: 0.6
+          - Clip: {fileID: 8300000, guid: 02913a39c2c98534a987b96242f1b3a0, type: 3}
+            Volume: 0.6
+          - Clip: {fileID: 8300000, guid: 8f398a5e47e3dcc44aa523333df29386, type: 3}
+            Volume: 0.6
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: 9474e62f068bc0242b492a467f49cfa8, type: 3}
+            Volume: 0.6
+          - Clip: {fileID: 8300000, guid: ba144bef430bd284e8e33a35ee34e4a2, type: 3}
+            Volume: 0.6
+          - Clip: {fileID: 8300000, guid: 5af718e05cc1e4443b5bcfdc50f49e18, type: 3}
+            Volume: 0.6
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: e6f72eac01074da4fbc4e1308b9f68d2, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 9f22f4f680302364285150ac1b4d6a2f, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 91d731f503e280348bac63957599a440, type: 3}
+            Volume: 1
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: 8fcbaf5447ccf3f40afc67000b29fa47, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 01ecb8c21dfd2f6459c53486a3174f75, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: ef7e6df13b450b94f8f8365c911d6076, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: eb6251452a9f6f847b517f823bef6e1d, type: 3}
+            Volume: 1
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: 57da18bd9e2670a42bb266f7f90b702a, type: 3}
+            Volume: 0.5
+          - Clip: {fileID: 8300000, guid: 83531f3fd79e7e940befeb10e3b6b58e, type: 3}
+            Volume: 0.5
+          - Clip: {fileID: 8300000, guid: be8c32c91abfa9e4b900b5f31ab6c3fe, type: 3}
+            Volume: 0.5
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: be0fca8312ded4b49bac3831f9b29dad, type: 3}
+            Volume: 1
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: ca2ba6a10a598a24288a809f2dd8996a, type: 3}
+            Volume: 0.5
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: 82748c911230f054e811a2a0e86ba957, type: 3}
+            Volume: 0.8
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: 5fd43014ef60dca4d85037b2b11cdad9, type: 3}
+            Volume: 0.5
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: 57da18bd9e2670a42bb266f7f90b702a, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 83531f3fd79e7e940befeb10e3b6b58e, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: be8c32c91abfa9e4b900b5f31ab6c3fe, type: 3}
+            Volume: 1
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: 9792f13d838e4a4468c9df2579e10387, type: 3}
+            Volume: 0.7
+        - AudioClipData:
+          - Clip: {fileID: 8300000, guid: ced2831ed90d3494e8d649f9abbe0eb2, type: 3}
+            Volume: 0.6
+          - Clip: {fileID: 8300000, guid: 03af5b31ae5f1bf43801eebecf4f2c0f, type: 3}
+            Volume: 0.6
+      m_WeaponAudioDictionary:
+        keyData: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001f00000020000000
+        valueData:
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 1c9607715eca15d47b12fbd8674ad6d0, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: ee12d49b8708b1c4381b8a580fc46d66, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: ef23873d905191146b659d2dd70dd767, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 0444bd7d8c70bb7459a41fbd55bf41a3, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: d32d7458e10d3234598703f94b8c6693, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 538040e06fb8cc14a876e659d0c024e4, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 0f86b7c1d93f21b4dadba82164738896, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: d7ea03ef55b98394db9e22d2fd7ce96d, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 0fee7b27c06895744b8348b055d20849, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 1441f23633a74bc4699acc3c19128ccb, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 2e67572bf6f54e6488d6bb0521b1fa63, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 1
+          m_ExplosionSound:
+          - Clip: {fileID: 8300000, guid: 3dbf684ba23b32f439c793c353e7cb14, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: a20a44ac32174e4448c37036713ec047, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: d2366980bd51db24793f1f5e01c7980c, type: 3}
+            Volume: 1
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 871f3df5206965a46b23326419ef1ba6, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 50bcd772d3838e947b589980dde8f1e8, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 3f6249fdd47d8ea419c1cc90c6ffc317, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 2e67572bf6f54e6488d6bb0521b1fa63, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 1
+          m_ExplosionSound:
+          - Clip: {fileID: 8300000, guid: 41b38a8ab5834904a9604494a856a789, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 9a2454c4ae163f14a9d1924cf0adca0f, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 95e588be2b92a0a4292b18afb45decb4, type: 3}
+            Volume: 1
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 3600f324114c18d429ef3cb8e89b9b24, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: b4c420c80866f9e4a88db37fbf445acd, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 0a99a823e9034d0419bc20aa0334aca6, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 3a5276ec80e77014db9d81d12dfa2647, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 843fdf4178e8e9b44b47a7a3099551e1, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 24964990dd67c2e4286410c87e55ef54, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 2e67572bf6f54e6488d6bb0521b1fa63, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: e7f301ab1b05355418c9f13b98afe08b, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 490260e4ef9bfb240804d7bc608afe86, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d266b87054c50c24ca89d657d08bbb2a, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: bb650c701b145a748b7f83753821f27d, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 20a711a5117a23c4e99810d9abc342c2, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 7c200cf3939687f4aa78fa34d13e7786, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: ac9d635c194e93f43be5490ff31750b8, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 4472665ea08838f45b14f49997a5bba0, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 2e030463bd4e2d548875b194b3ab3040, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 42824cb4e1ee9034d93b431748443b95, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 20e541bfc2112ed4d89c6edfc98e59df, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 04b230d2e4a730748911162845b6b4aa, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: fe9a39bee8c4b304f9c826119115d2f9, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d5e75b85d4c104d4b9f01d5b992c3ebe, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 3a7d275acc64cc94ea7daacd02afe74c, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: cd2546fb5cd0ba2439043e31105a8601, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 883ba988a76e1ba4f96d614fe04581d0, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 36083619e2e15b349b7c9e0cf043f2d8, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: eb9e0b1424488b84fa9d04919e202d5a, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 66149e3cce5b88646a6eea2516c375d3, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 92c6cf690e97bac43aed3b12110d2978, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 9de2a83b63000e840a5f1661510a07df, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 501f79c15fb79a44a8963117d21b7112, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 25941e5661e431c4697799f4f9c7dd53, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 62832b471ad0cd942887251ed0bece6d, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 32dfe211aaeb80f459d838f62752fe0f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 38fd2b2ba41169a459bdf00ad36ce833, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 268ecc0caf0d3ce4086fd6656b312e71, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 400cc303e2cce7241b7f39ba41ecb9b8, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: b351e393b9555c14d8716663088b57ed, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 8c5edd4a6c08f3941a19cbd48d55dadd, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load: []
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 3a9ec97338abb23469634ed9f2299bd1, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d67c0f2e3896ca34d97f32e08839799c, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 2e67572bf6f54e6488d6bb0521b1fa63, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: d7ea03ef55b98394db9e22d2fd7ce96d, type: 3}
+            Volume: 1
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit: []
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: b68b3bc61e583db45a775c8fe709a375, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 9b986b89ff825f947a6cb3b40c3fb697, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 84db0f3908f8e834b88461cb31ee554b, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 777d407830eceae40b46a72cfe22279b, type: 3}
+            Volume: 0.8
+          m_Hit: []
+          m_IsExplosive: 1
+          m_ExplosionSound:
+          - Clip: {fileID: 8300000, guid: e6f72eac01074da4fbc4e1308b9f68d2, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 9f22f4f680302364285150ac1b4d6a2f, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 91d731f503e280348bac63957599a440, type: 3}
+            Volume: 1
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: b68b3bc61e583db45a775c8fe709a375, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 9b986b89ff825f947a6cb3b40c3fb697, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 84db0f3908f8e834b88461cb31ee554b, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 777d407830eceae40b46a72cfe22279b, type: 3}
+            Volume: 0.8
+          m_Hit: []
+          m_IsExplosive: 1
+          m_ExplosionSound:
+          - Clip: {fileID: 8300000, guid: e6f72eac01074da4fbc4e1308b9f68d2, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 9f22f4f680302364285150ac1b4d6a2f, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 91d731f503e280348bac63957599a440, type: 3}
+            Volume: 1
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 67cc39d81484019418eb6c7437811b71, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 95a8bb368538e264eb8ef0c1fca19dcc, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: fdb244c7b66d9864eba7a2352cda9793, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 7f94a2d3f9009ef4cb40a90266fb5ae6, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 14439aaa31a078e46b16fe0f54bcae51, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: be852005cf66bb44b8127672b7d50118, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 70a844f5765a2544198e3858b1e3b469, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 061dd2bee573f654c95b26f73b19ebef, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: b312c67ad0e0397409feb28169ef5600, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 61a5d2d9f2122974786d0184d3217efa, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: d32d7458e10d3234598703f94b8c6693, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 538040e06fb8cc14a876e659d0c024e4, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 0f86b7c1d93f21b4dadba82164738896, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: ae448acb6901e5044839ccf90d6596a6, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 5da6394894f366548ad74a55451b2202, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 635ede92f6c5e994086695ced8bd515a, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: f586126840726424b85799077da71b23, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 229a55f9b4ba7d84a9ccb9da7c0f5ea7, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 2c6cb4ec4189a2b47a98b71d2b6de1c0, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 50a9092340ccb4a4ba3d198f78f71ca3, type: 3}
+            Volume: 0.8
+          m_Hit: []
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: c225add7991545043931ec2d893aa314, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 0fc6a48e3a9db46468d07c886ac3de8e, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: c1ea0a425cfcf9c498a3b30197044ead, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 7274dd7cc7ba65f4491ea9dac9859641, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: d32d7458e10d3234598703f94b8c6693, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 538040e06fb8cc14a876e659d0c024e4, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 0f86b7c1d93f21b4dadba82164738896, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: ece42aa4155df6d44aeaa8d87eb35557, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 7498dc22961d9f145838d2dcdc8206ed, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 19238ef9dc99f4b40bfd08c82f5174ca, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: f18dddd431fec3a4c85ad78886c08f9f, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: d32d7458e10d3234598703f94b8c6693, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 538040e06fb8cc14a876e659d0c024e4, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 0f86b7c1d93f21b4dadba82164738896, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 6323292ef6fed544187c6ac61083026e, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: cfb4039d4872a18459447e6ec9614c6d, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 3601aac657ecb5149ab7ece35e294cdb, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: a5052cba78af2a64eb9d68456e275432, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 514860e187b57df4f818a2d00d4a64ed, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 60fd345e795351f429ec41a1475e726c, type: 3}
+            Volume: 1
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 2241a1548e6eff249abca3f0336003c5, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 25e9ec74bf865c34e8e9a24c3e018ccf, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: bcf870cf0f8d71d48a53dae1fc0f06a5, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 2e67572bf6f54e6488d6bb0521b1fa63, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 1
+          m_ExplosionSound:
+          - Clip: {fileID: 8300000, guid: 91d731f503e280348bac63957599a440, type: 3}
+            Volume: 0.8
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: c1f743a13ee072e4b889829e9ec64476, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 0d980bc1e85da0d49bf74becea4986d5, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 7837da51e0131324ba02e387eaa2453a, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 2e67572bf6f54e6488d6bb0521b1fa63, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 1
+          m_ExplosionSound:
+          - Clip: {fileID: 8300000, guid: 91d731f503e280348bac63957599a440, type: 3}
+            Volume: 1
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 4db16370b32639a46a1750f43dd926c8, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: ea6c7b7e174a90d458560b651ab11f5b, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 449dd27709e6ede46933b5a4960acbc8, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 265e029b61f27224ab29488e58a1402a, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 2e67572bf6f54e6488d6bb0521b1fa63, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 1
+          m_ExplosionSound:
+          - Clip: {fileID: 8300000, guid: 01ecb8c21dfd2f6459c53486a3174f75, type: 3}
+            Volume: 1
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 687bed48d2c4e8c4a84bde79b805bc9d, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 1089d9f39661ace49a2c610dd783247e, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: bbca5e88c45d2164d88342c2e8462474, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a224038ad3713814287cf4e0fdc24fda, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 2e67572bf6f54e6488d6bb0521b1fa63, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 1
+          m_ExplosionSound:
+          - Clip: {fileID: 8300000, guid: ac79dfa253235734aa4ed0d160212f1b, type: 3}
+            Volume: 1
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 76124ee13b1b16e4490142824db56c76, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d7b8c082063e2d942986808c853c0629, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 6d98ccec9fed8bf4b8a7e2754d9049f7, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d3fa3748b2bdde344931aa39ca362ec5, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: b726e282b8e0901458509728bae381c4, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a56d0eb8e2fb6184780ff275838c4123, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 91d9562fd13016d4dbd00177e77653bd, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: ea94eea6f8bdd7d47968f91385711c3d, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: f9f1581e2601989469e47b805f7850c3, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 1
+          m_ExplosionSound:
+          - Clip: {fileID: 8300000, guid: 8fcbaf5447ccf3f40afc67000b29fa47, type: 3}
+            Volume: 1
+          - Clip: {fileID: 8300000, guid: 01ecb8c21dfd2f6459c53486a3174f75, type: 3}
+            Volume: 1
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 5803512ad528ac942af87724c3004fbd, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: b61110b31f7fa8f4e90b50eccb411b09, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 559b2b195d821a14ab780580802750f2, type: 3}
+            Volume: 0.6
+          - Clip: {fileID: 8300000, guid: a9dcd3b612fb60a45a84d0bea90b2a1d, type: 3}
+            Volume: 0.6
+          m_IsExplosive: 1
+          m_ExplosionSound:
+          - Clip: {fileID: 8300000, guid: 8fcbaf5447ccf3f40afc67000b29fa47, type: 3}
+            Volume: 1
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 43ddc0dce69bbaf43ae0a425cc61f0f5, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: fe8b4cce2e616f147a054b9243d580b3, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: c6b05e5074b8f654294585a2970fc8bd, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: f1cee4888d6d2cb4285e9299b9d30a20, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a106338dc54b41a429c8ccc2c0abea6b, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: e8746f8b2de2fa54a9cffd79b3d8ffa9, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 939403301f5b2964487503f5f75ca4ff, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: 018f17a165d3b3146b72c3bb98cbd544, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: f5412905cc0949145ab5644025e1ff5a, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 1
+          m_ExplosionSound:
+          - Clip: {fileID: 8300000, guid: 01ecb8c21dfd2f6459c53486a3174f75, type: 3}
+            Volume: 1
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: bc801adcc4defe043b8bfcb4d70acf11, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: ec17e8a2a73751542ba76610c400fe7e, type: 3}
+            Volume: 0.8
+          m_Throw:
+          - Clip: {fileID: 8300000, guid: 8dd1756fe642ef949a498ff8364ed02f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: d71b1b0e092642a4286a07f7f2aea88f, type: 3}
+            Volume: 0.8
+          - Clip: {fileID: 8300000, guid: a6cb1ae11aeddac4da31d5a0c5bac5d5, type: 3}
+            Volume: 0.8
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 23fbb8850f5008148be4a1405582f727, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 1
+          m_ExplosionSound:
+          - Clip: {fileID: 8300000, guid: ef7e6df13b450b94f8f8365c911d6076, type: 3}
+            Volume: 1
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 321832d1712e2334aa294bbb3e5c4251, type: 3}
+            Volume: 0.8
+          m_Throw: []
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 821d74d99a9856345b6914b2ef7ea966, type: 3}
+            Volume: 0.8
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+        - m_Load:
+          - Clip: {fileID: 8300000, guid: 3a433bdd6ffca344192ce35f3d0caf20, type: 3}
+            Volume: 0.8
+          m_Throw: []
+          m_Hit:
+          - Clip: {fileID: 8300000, guid: 657f66b90642f8a4d99b62f29aea507b, type: 3}
+            Volume: 1
+          m_IsExplosive: 0
+          m_ExplosionSound: []
+      m_Debug: 0
+      m_GeneralVolume: 0.6
+      m_WeaponVolume: 0.8
+    Difficulty:
+      Config: {fileID: 11400000, guid: 6424962bf22fb00429f359c79b501750, type: 2}
+    Experience:
+      ExperiencePerWin: 10
+      ExperiencePerLose: 10
+      ExperienceData:
+      - ExperienceValue: 30
+        CashIncreaseValue: 50
+      - ExperienceValue: 40
+        CashIncreaseValue: 75
+      - ExperienceValue: 50
+        CashIncreaseValue: 100
+      - ExperienceValue: 60
+        CashIncreaseValue: 125
+      - ExperienceValue: 70
+        CashIncreaseValue: 150
+      - ExperienceValue: 80
+        CashIncreaseValue: 175
+      - ExperienceValue: 90
+        CashIncreaseValue: 200
+      - ExperienceValue: 100
+        CashIncreaseValue: 300
+      - ExperienceValue: 110
+        CashIncreaseValue: 400
+      - ExperienceValue: 120
+        CashIncreaseValue: 500
+    Tutorials:
+      m_TutorialList:
+      - Data:
+          rid: 4057667431389987063
+      - Data:
+          rid: 4057667431389987064
+    TimeManagerData:
+      UseSlowMo: 1
+      ShouldLerp: 0
+      TargetScale: 0.1
+      TimeScaleDuration: 0.4
+      TimeScaleLerpSpeed: 1
+  Levels:
+    UseTestLevel: 0
+    m_TestLevel: {fileID: 114719342369648492, guid: a3b04599009bb514b989fd46f557db01, type: 2}
+    Levels:
+    - {fileID: 114918264173551851, guid: c727ff61b7fe31c46b887413867e13d6, type: 2}
+    - {fileID: 114026196548002408, guid: 8e740da14dc9b354f8d34d572c57838a, type: 2}
+    - {fileID: 114964469411310401, guid: c266b21716bc71e40bff22ecf43b94ee, type: 2}
+    - {fileID: 114581786255902400, guid: 1a7d68fc685356546b908e57836c97a6, type: 2}
+    - {fileID: 114085275382694935, guid: cd8112285e582904ca8dd55972684689, type: 2}
+    - {fileID: 114215879266689626, guid: d6b0966cc697c38488d384dc27dc18e7, type: 2}
+    - {fileID: 114719342369648492, guid: a3b04599009bb514b989fd46f557db01, type: 2}
+    - {fileID: 114016852445014956, guid: dbc0e8b5b49f9e44fb9431e7705b43cc, type: 2}
+    - {fileID: 114574190619683098, guid: 77904f8402248e241bd8366779859c83, type: 2}
+    - {fileID: 114009931292380359, guid: 7650aece4e977da459cd7302901e95ea, type: 2}
+    - {fileID: 114149520701623706, guid: 8c33cfa2ebdedf74e9443d871396ee70, type: 2}
+    - {fileID: 114733206282342372, guid: a780b33298cb4c349b62a4286e6dd0b8, type: 2}
+    - {fileID: 114574190619683098, guid: 8e614e5d7efe2d748a1acad051d381b3, type: 2}
+    - {fileID: 114574304967836189, guid: ee82ffb6389490d489c7bd9698cce103, type: 2}
+    - {fileID: 114824317463469755, guid: e3f3a85b9d8408241980a9b4bc8fd492, type: 2}
+    - {fileID: 114240571728440943, guid: 04166018eda39e041842259fed5064d3, type: 2}
+    - {fileID: 114393105877652414, guid: da10e83dafbb517419074bee6f4e747d, type: 2}
+    - {fileID: 114358105479016104, guid: bf4d9aa2424e8e2468c3b46b4ee50d9a, type: 2}
+    - {fileID: 114085275382694935, guid: 8174572ad9705014488a591690564a1c, type: 2}
+    - {fileID: 114123703392571528, guid: 1b67f7b0d89ab294e93b6a0c7ae24864, type: 2}
+    - {fileID: 114571878917323452, guid: 508dc012d06676f41961b9d8aadf920f, type: 2}
+    - {fileID: 114574304967836189, guid: 35c5d85588a02004eb09205f09be7746, type: 2}
+    - {fileID: 114009931292380359, guid: 7a1765115adcd8648b20651c75f2db0f, type: 2}
+    - {fileID: 114976365255789935, guid: e735e40492cb1414f97e2cc2c79fa012, type: 2}
+    - {fileID: 114571878917323452, guid: 9be225a791debfe4e9cd5f05ff8f2ee2, type: 2}
+    - {fileID: 114964469411310401, guid: 75eeeb77c772ad648b2d2b9637a4b621, type: 2}
+    - {fileID: 114572839542275309, guid: b7f62cbc585ee2043822880081e2dd36, type: 2}
+    - {fileID: 114431740505123533, guid: b507dae48e7901f428263f611e93e998, type: 2}
+    - {fileID: 114998874197659892, guid: f82d95c14df9edc42b87aa867c92fac3, type: 2}
+    - {fileID: 114799762105739359, guid: 2b07f7df55283f14ab71bb4d091c7868, type: 2}
+  HUD:
+    IsUseCollectables: 1
+    EarnObject:
+      EarnObjectUIAnimData:
+        keyData:
+        valueData: []
+      IsPlayHapticsOnReceive: 1
+      ReceivedHaptics: 0
+      EarningCompleteHaptics: 5
+      HapticsCooldown: 0.3
+    CollectableData:
+      keyData: 00000000
+      valueData:
+      - InitialValue: 0
+        CollectableSprite: {fileID: 21300000, guid: 49057325223297b4c9ee5f9b2783c512, type: 3}
+        ParticlesMaterial: {fileID: 2100000, guid: 8621ac576ea9a07419f2fee4d9976607, type: 2}
+        ParticlesSize: {x: 1, y: 1, z: 1}
+        Type: 0
+    AnimationData: {fileID: 11400000, guid: 6b5d93b79f3144d4faa8838e2b9e3960, type: 2}
+  Menus:
+    UseScreenSettings: 1
+    OpenLevelFailedScreenAfterReviveScreen: 0
+    TimeToShowNoThanks: 0.7
+    ShowNoThanksDuration: 1
+    ShowNoThanksEase: 7
+    RV_NeedleRotationDuration: 1.3
+    RV_NeedleRotationEase: 2
+    RV_ButtonBlockDuration: 3
+    ExtendedButtonCanDoScaleAnim: 1
+    ExtendedButtonCanDoHaptics: 1
+    ExtendedButtonScaleAnimType: 0
+    ExtendedButtonPunchScale: 0.1
+    ExtendedButtonPunchScaleDuration: 0.25
+    ExtendedButtonPunchScaleVibrato: 7
+    ExtendedButtonPunchScaleElasticity: 0.66
+    ExtendedButtonPunchScaleEaseIn: 27
+    ExtendedButtonPunchScaleEaseOut: 9
+    TimeToAllowRevive: 4
+    LegacyStartGame: 0
+    IsShowGDPR: 0
+    ScreenFadeInDuration: 0.25
+    ScreenFadeOutDuration: 0.1
+    PopUpTextParameters:
+      UsePopText: 1
+      ShouldRotate: 0
+      PunchDuration: 1
+      PunchLength: 0.2
+      PunchVibrator: 1
+      PunchElasticity: 0.1
+      ShowDuration: 0.25
+      ShowEase: 6
+      StayDuration: 0.4
+      HideDuration: 0.25
+      HideEase: 5
+      PopColors:
+      - {r: 0.3915094, g: 0.5155936, b: 1, a: 1}
+      - {r: 0.5984093, g: 0.21226418, b: 1, a: 1}
+      - {r: 1, g: 0.5294118, b: 0, a: 1}
+      - {r: 1, g: 0, b: 0.49019608, a: 1}
+      - {r: 0, g: 0.7490196, b: 0.53333336, a: 1}
+      Rotation: f1ffffff0f000000
+    DeckParameters:
+      IsAnimate: 1
+      HideDistance: 700
+      ShowDuration: 0.3
+      ShowEase: 6
+      HideDuration: 0.3
+      HideEase: 11
+    ShopDeckParameter:
+      UncoverAnim:
+        IsAnimate: 1
+        HideDistance: 2500
+        ShowDuration: 0.3
+        ShowEase: 6
+        HideDuration: 0.3
+        HideEase: 6
+      IsAnimateSelection: 1
+      SelectionCloseDuration: 0.3
+      SelectionCloseEase: 6
+      FadeInStartValue: 0
+      FadeInEndValue: 0.85
+      FadeInDuration: 0.28
+      FadeInEase: 3
+      FadeOutDuration: 0.26
+      FadeOutEase: 2
+    TabExpanderParameter:
+      IsAnimate: 0
+      HideDistance: 3000
+      ShowDuration: 0.3
+      ShowEase: 6
+      HideDuration: 0.2
+      HideEase: 6
+    ShopTabParameters:
+      Size: {x: 209.7, y: 81.3}
+      ScaleFactor: 1.3
+      ShowDuration: 0.3
+      ShowEase: 27
+      HideDuration: 0.2
+      HideEase: 2
+  Player: {}
+  Camera:
+    ZoomType: 0
+    ZoomDolly:
+      Sensitivity: 1000
+      Limits: {x: -5, y: 5}
+    ZoomOrtho:
+      Sensitivity: 100
+      Limits: {x: 2, y: 5}
+    ZoomPerspective:
+      Sensitivity: 2000
+      Limits: {x: 25, y: 90}
+  Haptics:
+    WeaponHit: 8
+    WeaponExplosion: 6
+    CharacterDeath: 5
+    m_HapticData:
+    - HapticEvent: 0
+      Duration: 3
+      IsWork: 1
+      Override: 0
+      HapticType: 3
+  Addressables:
+    Skin:
+      m_Skins:
+      - Name: Astronaut
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 04945b8e5cc6535498c4772cac51710e, type: 3}
+        AssetReference:
+          m_AssetGUID: 04945b8e5cc6535498c4772cac51710e
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Base
+        Type: 0
+        Prefab: {fileID: 1709254077376921, guid: a43b972b52e81f14b8cc89dbe8fd2d56, type: 3}
+        AssetReference:
+          m_AssetGUID: a43b972b52e81f14b8cc89dbe8fd2d56
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Bond
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 5037d6c6bf0692b4dbdb4388e69e3416, type: 3}
+        AssetReference:
+          m_AssetGUID: 5037d6c6bf0692b4dbdb4388e69e3416
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: C3PO
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 07ccda06f003c0441870edc6e2eba9f7, type: 3}
+        AssetReference:
+          m_AssetGUID: 07ccda06f003c0441870edc6e2eba9f7
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: CorpseBride
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 08e6882a62aa8b84a91f322cc49bdda0, type: 3}
+        AssetReference:
+          m_AssetGUID: 08e6882a62aa8b84a91f322cc49bdda0
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: FNAF Bear
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 273e0d5a8cd2d5c44b6e13a4c5f20e0f, type: 3}
+        AssetReference:
+          m_AssetGUID: 273e0d5a8cd2d5c44b6e13a4c5f20e0f
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Genie
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 26581a1b3994d0142a25ad59decf076b, type: 3}
+        AssetReference:
+          m_AssetGUID: 26581a1b3994d0142a25ad59decf076b
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Golden
+        Type: 2
+        Prefab: {fileID: 1709254077376921, guid: 3d450371e4a77f745a8f173a60e742cd, type: 3}
+        AssetReference:
+          m_AssetGUID: 3d450371e4a77f745a8f173a60e742cd
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Grinch
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 4892bd84d3f23c84ab693701e9bc74b2, type: 3}
+        AssetReference:
+          m_AssetGUID: 4892bd84d3f23c84ab693701e9bc74b2
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Harley
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: da45fb866d44d5445b07d50d9132c783, type: 3}
+        AssetReference:
+          m_AssetGUID: da45fb866d44d5445b07d50d9132c783
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Homer
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 9aa875a41b5f3a94bbb6a3fa3a9c069f, type: 3}
+        AssetReference:
+          m_AssetGUID: 9aa875a41b5f3a94bbb6a3fa3a9c069f
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Incredibles
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: e00776c8cc828ca489f9762556565646, type: 3}
+        AssetReference:
+          m_AssetGUID: e00776c8cc828ca489f9762556565646
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Ironman
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 68e0a6ae21f78b045913e7feb2812229, type: 3}
+        AssetReference:
+          m_AssetGUID: 68e0a6ae21f78b045913e7feb2812229
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Jason
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 175adb2c5a5929745957715e419f1ae5, type: 3}
+        AssetReference:
+          m_AssetGUID: 175adb2c5a5929745957715e419f1ae5
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Joker
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 15bb44843c2004c46829c38bbe8decc8, type: 3}
+        AssetReference:
+          m_AssetGUID: 15bb44843c2004c46829c38bbe8decc8
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Joker2
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 2b2bbba820580dd48856f843a9f8049e, type: 3}
+        AssetReference:
+          m_AssetGUID: 2b2bbba820580dd48856f843a9f8049e
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Octopus
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: b7900953663949f4d8a1b1811108399e, type: 3}
+        AssetReference:
+          m_AssetGUID: b7900953663949f4d8a1b1811108399e
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Panda
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 66abf02d6f107f54e954e7dc4a665b77, type: 3}
+        AssetReference:
+          m_AssetGUID: 66abf02d6f107f54e954e7dc4a665b77
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Rick
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 6fa270f824142e0418d8cf55a559bb77, type: 3}
+        AssetReference:
+          m_AssetGUID: 6fa270f824142e0418d8cf55a559bb77
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Rocky
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 85aa0fdede9a69643a247e2a066c1956, type: 3}
+        AssetReference:
+          m_AssetGUID: 85aa0fdede9a69643a247e2a066c1956
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Shrek
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 234b811914855d2489c6179bf7d26492, type: 3}
+        AssetReference:
+          m_AssetGUID: 234b811914855d2489c6179bf7d26492
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Squid Game 1
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 2c06455159a60de4e8626703da3933dc, type: 3}
+        AssetReference:
+          m_AssetGUID: 2c06455159a60de4e8626703da3933dc
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Squid Game 2
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 41696991d2ce1904eba3a0951548c8fd, type: 3}
+        AssetReference:
+          m_AssetGUID: 41696991d2ce1904eba3a0951548c8fd
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Stormtrooper
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 5da25e75e0ca85445bf4a543a675ae7b, type: 3}
+        AssetReference:
+          m_AssetGUID: 5da25e75e0ca85445bf4a543a675ae7b
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Turtle
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: db7a14d8f86607446bf5da325e087854, type: 3}
+        AssetReference:
+          m_AssetGUID: db7a14d8f86607446bf5da325e087854
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: Wednesday
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 4ae4a9fd58f26a546be63fe750040143, type: 3}
+        AssetReference:
+          m_AssetGUID: 4ae4a9fd58f26a546be63fe750040143
+          m_SubObjectName:
+          m_SubObjectType:
+      - Name: WonderWoman
+        Type: 1
+        Prefab: {fileID: 1709254077376921, guid: 6e6ca8911560d714295816980728677e, type: 3}
+        AssetReference:
+          m_AssetGUID: 6e6ca8911560d714295816980728677e
+          m_SubObjectName:
+          m_SubObjectType:
+  Shop: {fileID: 11400000, guid: 6825bbb4c36b8ba4a97701ebb5251cb7, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4057667431389987063
+      type:
+        class: DefaultData
+        ns: Wayne.Game.Tutorials
+        asm: Assembly-CSharp
+      data:
+        m_Type: 0
+        m_IsEnabled: 1
+    - rid: 4057667431389987064
+      type:
+        class: DefaultData
+        ns: Wayne.Game.Tutorials
+        asm: Assembly-CSharp
+      data:
+        m_Type: 1
+        m_IsEnabled: 1

@@ -1,0 +1,534 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Who_Dies_First_Table_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 6fbb261c7bbf97149b73edb369de75bb, type: 2}
+  m_Metadata:
+    m_Items:
+      Array: []
+  m_TableData:
+  - m_Id: 279799441567744
+    m_Localized: プレイ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344960
+    m_Localized: 武器
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344961
+    m_Localized: ヒーロー
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344962
+    m_Localized: 広告をオフにする
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344963
+    m_Localized: すべてのゲーム内広告をオフにする
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344964
+    m_Localized: すべてのスキンをロック解除する
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344965
+    m_Localized: これをロック解除
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344966
+    m_Localized: VIP武器
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344967
+    m_Localized: VIPスキン
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344968
+    m_Localized: ショップ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344969
+    m_Localized: 優良
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344970
+    m_Localized: 希少
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799458344971
+    m_Localized: 勇壮
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539264
+    m_Localized: 神話
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539265
+    m_Localized: デッキ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539266
+    m_Localized: 戦闘デッキ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539267
+    m_Localized: カードパッケージ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539268
+    m_Localized: 獲得
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539269
+    m_Localized: 放棄
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539270
+    m_Localized: 請求
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539271
+    m_Localized: 完了しました
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539272
+    m_Localized: 敵を倒しました
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539273
+    m_Localized: 続行
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539274
+    m_Localized: ロック解除状態
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539275
+    m_Localized: レベル
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539276
+    m_Localized: レベル失敗
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539277
+    m_Localized: タップしてリスタート
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539278
+    m_Localized: 音楽
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539279
+    m_Localized: SFX
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539280
+    m_Localized: バイブレーション
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539281
+    m_Localized: プライバシーの設定
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539282
+    m_Localized: 同意の設定
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539283
+    m_Localized: 設定
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539284
+    m_Localized: レベル
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539285
+    m_Localized: HP
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539286
+    m_Localized: 報酬
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539287
+    m_Localized: レベルアップ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539288
+    m_Localized: レベルNに到達しました
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539289
+    m_Localized: OK！
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539290
+    m_Localized: 広告を視聴してパッケージを獲得しましょう
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539291
+    m_Localized: 広告を視聴して200～400ドルを獲得しましょう
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539292
+    m_Localized: 取得
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539293
+    m_Localized: ナイフ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539294
+    m_Localized: ボウリングの玉
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539295
+    m_Localized: 岩
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539296
+    m_Localized: 斧
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539297
+    m_Localized: ハンマー
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539298
+    m_Localized: フットボールの球
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539299
+    m_Localized: 手榴弾
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539300
+    m_Localized: 大くぎ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539301
+    m_Localized: ハサミ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539302
+    m_Localized: RPG
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539303
+    m_Localized: 電話
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539304
+    m_Localized: TNT
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539305
+    m_Localized: 肉切り包丁
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539306
+    m_Localized: メイス
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539307
+    m_Localized: ホーミング
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539308
+    m_Localized: チェーンソー
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539309
+    m_Localized: クラスターグレネード
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539310
+    m_Localized: 剣
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539311
+    m_Localized: レーザーソード
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539312
+    m_Localized: トールハンマー
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539313
+    m_Localized: 魔女爆弾
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539314
+    m_Localized: 火炎瓶
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539315
+    m_Localized: バナナ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539316
+    m_Localized: 手裏剣
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539317
+    m_Localized: 毒瓶
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539318
+    m_Localized: スカンク
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539319
+    m_Localized: ニワトリ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539320
+    m_Localized: チワワ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539321
+    m_Localized: サメ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539322
+    m_Localized: 聖なる手榴弾
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539323
+    m_Localized: パイプ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539324
+    m_Localized: ボトル
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539325
+    m_Localized: ダメージ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539326
+    m_Localized: 押す力
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539327
+    m_Localized: ダメージ半径
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539328
+    m_Localized: アップグレード
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539329
+    m_Localized: 装着
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539330
+    m_Localized: 無料のレベルアップ
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539331
+    m_Localized: タップして開く
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539332
+    m_Localized: 使用中
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539333
+    m_Localized: 収集
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539334
+    m_Localized: 新しい武器
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539335
+    m_Localized: 武器を選択
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539336
+    m_Localized: 武器を交換して装着
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539337
+    m_Localized: 武器をタップして交換
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539338
+    m_Localized: 閉じる
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539339
+    m_Localized: 交換するカードを選択しましょう
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539340
+    m_Localized: ロック状態
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 279799462539341
+    m_Localized: すべて放棄
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 662981378748416
+    m_Localized: VIP
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 664642688036864
+    m_Localized: 無料
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 665174341234688
+    m_Localized: マックス
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 692735196704768
+    m_Localized: 到達：
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 1750851673829376
+    m_Localized: ドラッグして離す
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714172406444032
+    m_Localized: 評価してください
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714174486818816
+    m_Localized: ゲームをお楽しみいただけたら、  本作を評価してご支援ください。
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714176940486656
+    m_Localized: さらなる改善に役立てさせていただきます！
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714179167662080
+    m_Localized: 後で
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714181063487488
+    m_Localized: 評価しない
+    m_Metadata:
+      m_Items:
+        Array: []
+  - m_Id: 9714183231942656
+    m_Localized: 評価する
+    m_Metadata:
+      m_Items:
+        Array: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,7 @@
+{
+  "name": "KobGamesSDK.IAP.Runtime",
+  "references": [
+    "UnityEngine.Purchasing"
+  ],
+  "allowUnsafeCode": true
+}
